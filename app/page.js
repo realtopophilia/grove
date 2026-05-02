@@ -1,12 +1,17 @@
-import { getNeighborhoodIndex, getClpEvents, formatEventDate, slugify } from '../lib/data'
+import { getNeighborhoodIndex, getClpEvents, getParksEvents, formatEventDate, slugify } from '../lib/data'
 import Link from 'next/link'
 
 export default function Home() {
   const neighborhoods = getNeighborhoodIndex()
-  const clpEvents = getClpEvents().slice(0, 8) // Show next 8 upcoming events
+
+  // Merge and sort all upcoming events, show the next 8
+  const allEvents = [
+    ...getClpEvents(),
+    ...getParksEvents(),
+  ].sort((a, b) => (a.start || '').localeCompare(b.start || '')).slice(0, 8)
 
   const withEvents = neighborhoods.filter(n =>
-    n.clpEvents.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
+    n.clpEvents.length > 0 || n.parksEvents.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
   )
 
   return (
@@ -22,7 +27,7 @@ export default function Home() {
 
       <p className="section-heading">Upcoming events</p>
       <div className="event-grid">
-        {clpEvents.map((ev, i) => {
+        {allEvents.map((ev, i) => {
           const { day, month, time } = formatEventDate(ev.start)
           return (
             <div className="event-card" key={i}>
@@ -51,16 +56,17 @@ export default function Home() {
       <p className="section-heading">Neighborhoods ({withEvents.length} with coverage)</p>
       <div className="neighborhood-grid">
         {withEvents.map(n => {
-          const total = n.clpEvents.length + n.rcos.length + n.orgs.length
+          const totalEvents = n.clpEvents.length + n.parksEvents.length
           return (
             <Link href={`/neighborhood/${n.slug}`} key={n.slug} className="neighborhood-card">
               <div className="name">
                 {n.name}
                 {n.clpEvents.length > 0 && <span className="badge">CLP</span>}
+                {n.parksEvents.length > 0 && <span className="badge badge-parks">Parks</span>}
               </div>
               <div className="count">
                 {[
-                  n.clpEvents.length > 0 && `${n.clpEvents.length} event${n.clpEvents.length !== 1 ? 's' : ''}`,
+                  totalEvents > 0 && `${totalEvents} event${totalEvents !== 1 ? 's' : ''}`,
                   n.rcos.length > 0 && `${n.rcos.length} RCO`,
                   n.orgs.length > 0 && `${n.orgs.length} org`,
                 ].filter(Boolean).join(' · ')}

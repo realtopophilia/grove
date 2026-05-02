@@ -5,3 +5,6 @@ out/
 .env.local
 data/.tmp_*.txt
 data/clp-events.ical
+data/parks-events.ical
+
+.vercel

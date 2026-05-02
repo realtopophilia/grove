@@ -193,6 +193,11 @@ footer {
   vertical-align: middle;
 }
 
+.badge-parks {
+  background: #e8f4f0;
+  color: #1a6b4a;
+}
+
 /* Coverage gap notice */
 .gap-notice {
   background: #fff8e1;
