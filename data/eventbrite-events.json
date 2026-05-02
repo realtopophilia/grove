@@ -1,7 +1,7 @@
 [
   {
     "title": "Something to do Saturdays",
-    "start": "2026-05-02T00:00:00",
+    "start": "2026-05-02T21:00:00-04:00",
     "neighborhood": "East Liberty",
     "neighborhood_lat": 40.45901600000001,
     "neighborhood_lng": -79.9133768,
@@ -9,11 +9,12 @@
     "url": "https://www.eventbrite.com/e/something-to-do-saturdays-tickets-1978775610117",
     "description": "Get ready to kick off your Saturdays with a bang at \"Something to do Saturdays\" - the ultimate weekend hangout spot!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180922924%2F380489462857%2F1%2Foriginal.20260329-022300?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.433&fp-y=0.017&s=fd63440e43b7d741754ef9fd969c1c14",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-05-03T02:00:00-04:00"
   },
   {
     "title": "Saints & Stained Glass Tour",
-    "start": "2026-05-18T00:00:00",
+    "start": "2026-05-18T17:30:00-04:00",
     "neighborhood": "Beechview",
     "neighborhood_lat": 40.3875461,
     "neighborhood_lng": -80.04280229999999,
@@ -25,7 +26,7 @@
   },
   {
     "title": "GreenBey Land \" Her Night Out\" Movie night",
-    "start": "2026-05-21T00:00:00",
+    "start": "2026-05-21T20:30:00-04:00",
     "neighborhood": "East Liberty",
     "neighborhood_lat": 40.4573361,
     "neighborhood_lng": -79.9161194,
@@ -33,11 +34,12 @@
     "url": "https://www.eventbrite.com/e/greenbey-land-her-night-out-movie-night-tickets-1987643052877",
     "description": "GreenBey Land \"Her Night Out\" is a chill in-person hangout where ladies vibe, chat, and unwind together.",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183294837%2F133556263076%2F1%2Foriginal.20260429-031101?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.532&fp-y=0.503&s=050c05fe61842601e62aacb3ee761748",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-05-21T22:30:00-04:00"
   },
   {
     "title": "Queer Craft Night - Make Signs & Pins for Pride Month!",
-    "start": "2026-05-21T00:00:00",
+    "start": "2026-05-21T19:00:00-04:00",
     "neighborhood": "Bloomfield",
     "neighborhood_lat": 40.4652471,
     "neighborhood_lng": -79.94599029999999,
@@ -45,11 +47,12 @@
     "url": "https://www.eventbrite.com/e/queer-craft-night-make-signs-pins-for-pride-month-tickets-1988201037825",
     "description": "Pride Month is in June! Let's get ready together by making signs and pins!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182988158%2F1540424645403%2F1%2Foriginal.20260424-185258?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=817a91ca063a563ad578f4b56bae2382",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-05-21T21:00:00-04:00"
   },
   {
     "title": "Can We DRAG You to Church??",
-    "start": "2026-05-22T00:00:00",
+    "start": "2026-05-22T18:00:00-04:00",
     "neighborhood": "Manchester",
     "neighborhood_lat": 40.452221,
     "neighborhood_lng": -80.0186928,
@@ -57,11 +60,12 @@
     "url": "https://www.eventbrite.com/e/can-we-drag-you-to-church-tickets-1986467082518",
     "description": "A Night of Sass, Sparkle & Celebration! An all-ages show supporting & uplifting the\nTrans & Drag Queen communities!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183025800%2F183590901893%2F1%2Foriginal.20260425-140248?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.214&fp-y=0.453&s=ade7b316cc4575bd3fb7a6aaac52560c",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-05-22T22:00:00-04:00"
   },
   {
     "title": "Processing the Present | Monthly Community Check-In",
-    "start": "2026-05-26T00:00:00",
+    "start": "2026-05-26T18:30:00-04:00",
     "neighborhood": "East Liberty",
     "neighborhood_lat": 40.456881,
     "neighborhood_lng": -79.91716199999999,
@@ -69,11 +73,12 @@
     "url": "https://www.eventbrite.com/e/processing-the-present-monthly-community-check-in-tickets-1979748128947",
     "description": "Discuss. Reflect. Act. A guided monthly series (April–August) to navigate the complexities of today’s world together.",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174018101%2F1552544857123%2F1%2Foriginal.20260105-172212?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2b7c05b34163d07d9491885a6d027f65",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-05-26T19:30:00-04:00"
   },
   {
     "title": "3rd Annual Among The Wildflowers Sanctuary Fundraiser",
-    "start": "2026-05-31T00:00:00",
+    "start": "2026-05-31T12:00:04-04:00",
     "neighborhood": "South Side Flats",
     "neighborhood_lat": 40.4265848,
     "neighborhood_lng": -79.9759923,
@@ -81,11 +86,12 @@
     "url": "https://www.eventbrite.com/e/3rd-annual-among-the-wildflowers-sanctuary-fundraiser-tickets-1980677086484",
     "description": "A fun filled Pet Friendly event!! \n\nCome win some amazing baskets, drink some amazing beers and eat aome amazing food!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175009917%2F2611053112551%2F1%2Foriginal.20260115-232743?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2700%2C1350&s=69e09d8148052b20ec07b37febba0abe",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-05-31T15:00:04-04:00"
   },
   {
     "title": "2026 LGBTQ+ Unity Summit: Building Bridges: Strength in Unity...",
-    "start": "2026-06-05T00:00:00",
+    "start": "2026-06-05T11:00:00-04:00",
     "neighborhood": "Allegheny Center",
     "neighborhood_lat": 40.44568279999999,
     "neighborhood_lng": -80.01818519999999,
@@ -93,11 +99,12 @@
     "url": "https://www.eventbrite.com/e/2026-lgbtq-unity-summit-building-bridges-strength-in-unity-tickets-1669382701599",
     "description": "Get ready to connect, learn, and celebrate at the 2026 LGBTQ+ Unity Summit - it's all about coming together and building bridges!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1115539653%2F2716446920811%2F1%2Foriginal.20250905-165414?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=52504a98316693babf83b360e1933fdc",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-05T15:00:00-04:00"
   },
   {
     "title": "First Friday Vendor Night Market",
-    "start": "2026-06-05T00:00:00",
+    "start": "2026-06-05T18:00:00-04:00",
     "neighborhood": "Bloomfield",
     "neighborhood_lat": 40.4652445,
     "neighborhood_lng": -79.94573049999997,
@@ -105,11 +112,12 @@
     "url": "https://www.eventbrite.com/e/first-friday-vendor-night-market-tickets-1975236832538",
     "description": "Level Up Studios presents the First Friday Night Market!!\n\nEvery First Friday we will celebrate local creatives with a Night Market!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F924311363%2F180827931545%2F1%2Foriginal.20241229-000832?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495006887052&fp-y=0.0894941634241&s=f289199e5d7dd746afd8ba65b2d95a31",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-05T23:00:00-04:00"
   },
   {
     "title": "East Liberty Public Art Walking Tour",
-    "start": "2026-06-06T00:00:00",
+    "start": "2026-06-06T10:00:00-04:00",
     "neighborhood": "East Liberty",
     "neighborhood_lat": 40.4608964,
     "neighborhood_lng": -79.9250722,
@@ -117,11 +125,12 @@
     "url": "https://www.eventbrite.com/e/east-liberty-public-art-walking-tour-tickets-1982713334958",
     "description": "Explore the public art of one of Pittsburgh's most beloved neighborhoods with local public art aficionado Morton Brown and Shiftworks.",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181531032%2F552592358707%2F1%2Foriginal.20260406-191717?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8276a50a850e85d43a1f7b0ed2f4b71b",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-06T11:30:00-04:00"
   },
   {
     "title": "Shiloh MVP",
-    "start": "2026-06-13T00:00:00",
+    "start": "2026-06-13T10:00:00-04:00",
     "neighborhood": "Point Breeze",
     "neighborhood_lat": 40.4510434,
     "neighborhood_lng": -79.8995197,
@@ -129,11 +138,12 @@
     "url": "https://www.eventbrite.com/e/shiloh-mvp-tickets-1984074159220",
     "description": "Join us at Shiloh Farm for an early Saturday Morning Volunteering Project",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178544998%2F2266917776613%2F1%2Foriginal.20260226-192756?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.037&fp-y=0.852&s=6406a15a05fd3bddc34d9f2c20ed9ce2",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-13T12:00:00-04:00"
   },
   {
     "title": "The Collective Connection | Summer Meetups",
-    "start": "2026-06-13T00:00:00",
+    "start": "2026-06-13T10:00:00-04:00",
     "neighborhood": "East Liberty",
     "neighborhood_lat": 40.4568841,
     "neighborhood_lng": -79.91714900000001,
@@ -141,11 +151,12 @@
     "url": "https://www.eventbrite.com/e/the-collective-connection-summer-meetups-tickets-1986443578216",
     "description": "Find your village. A supportive space for professional healers and helpers to connect, share experiences, and grow together.",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180142608%2F1552544857123%2F1%2Foriginal.20260318-150046?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b3cf0261d8f5820ce8bb9543b5ec1a89",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-13T11:00:00-04:00"
   },
   {
     "title": "GRC Garden Chat",
-    "start": "2026-06-13T00:00:00",
+    "start": "2026-06-13T09:00:00-04:00",
     "neighborhood": "East Liberty",
     "neighborhood_lat": 40.4596972,
     "neighborhood_lng": -79.9126507,
@@ -153,11 +164,12 @@
     "url": "https://www.eventbrite.com/e/grc-garden-chat-tickets-1987947106309",
     "description": "Got questions about your garden? Got insight to share? Let's talk about it!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182702629%2F256702748240%2F1%2Foriginal.20260421-181405?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=1%2C1%2C1280%2C640&s=654af8053e01a5de040bc614f538cf08",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-13T10:00:00-04:00"
   },
   {
     "title": "STVP Honorees Gala",
-    "start": "2026-06-17T00:00:00",
+    "start": "2026-06-17T19:00:35-04:00",
     "neighborhood": "Hill District",
     "neighborhood_lat": 40.4350347,
     "neighborhood_lng": -80.0064087,
@@ -165,11 +177,12 @@
     "url": "https://www.eventbrite.com/e/stvp-honorees-gala-tickets-1988570113741",
     "description": "2026 BLACK TIE HONORS GALA \n\nVIP Reception | Dinner | Awards | Entertainment \n\n7p-10p @ Sheraton Hotel Grand Ballroom",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183447242%2F881236020743%2F1%2Foriginal.20260430-164500?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=86%2C472%2C904%2C452&s=4cb5ecc10727f893a624a2cc1e2d4164",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-17T22:00:35-04:00"
   },
   {
     "title": "Antique Skyscrapers Rooftop Tours",
-    "start": "2026-06-20T00:00:00",
+    "start": "2026-06-20T10:00:00-04:00",
     "neighborhood": "Hill District",
     "neighborhood_lat": 40.4420849,
     "neighborhood_lng": -79.99562569999999,
@@ -177,11 +190,12 @@
     "url": "https://www.eventbrite.com/e/antique-skyscrapers-rooftop-tours-tickets-1985918678226",
     "description": "Climb atop four historic Pittsburgh skyscrapers for spectacular views and learn about the amazing stories and people behind these landmarks",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180660888%2F417207832753%2F1%2Foriginal.20260325-142755?w=355&auto=format%2Ccompress&q=75&sharp=10&s=95b541142b8d20a19eb0100b53ac3a3e",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-20T12:00:00-04:00"
   },
   {
     "title": "WPA Juneteenth Finale - FABOLOUS All White After-Party",
-    "start": "2026-06-21T00:00:00",
+    "start": "2026-06-21T21:00:00-04:00",
     "neighborhood": "South Side Flats",
     "neighborhood_lat": 40.4287406,
     "neighborhood_lng": -79.9824388,
@@ -189,11 +203,12 @@
     "url": "https://www.eventbrite.com/e/wpa-juneteenth-finale-fabolous-all-white-after-party-tickets-1986449827909",
     "description": "Join Us for the biggest Juneteenth After-Party of the Year with Legendary Hip Hop MC FABOLOUS & Friends | 21 + Event with Proper ID |",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181223252%2F881236020743%2F1%2Foriginal.20260401-182706?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C239%2C1128%2C564&s=e10f31b8e1a3633563b135d7756b575b",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-21T23:30:00-04:00"
   },
   {
     "title": "Safe Sidewalks Crew Training with BikePGH",
-    "start": "2026-06-25T00:00:00",
+    "start": "2026-06-25T18:00:00-04:00",
     "neighborhood": "Point Breeze",
     "neighborhood_lat": 40.448231,
     "neighborhood_lng": -79.89547199999998,
@@ -201,11 +216,12 @@
     "url": "https://www.eventbrite.com/e/safe-sidewalks-crew-training-with-bikepgh-tickets-1987836432280",
     "description": "Join Pittsburgh's new Safe Sidewalks Crew!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182574598%2F190590608236%2F1%2Foriginal.20260420-152618?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1308c76c771c1eaa5180d6e73bd6af16",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-06-25T19:30:00-04:00"
   },
   {
     "title": "Pittsburgh Carnival Second Annual Paint & Powder Jouvert",
-    "start": "2026-07-24T00:00:00",
+    "start": "2026-07-24T15:00:00-04:00",
     "neighborhood": "Allegheny Center",
     "neighborhood_lat": 40.4521984,
     "neighborhood_lng": -80.01087129999999,
@@ -213,11 +229,12 @@
     "url": "https://www.eventbrite.com/e/pittsburgh-carnival-second-annual-paint-powder-jouvert-tickets-1987029587987",
     "description": "Get ready to splash some color and powder at the wildest Jouvert party Pittsburgh’s seen yet!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181752376%2F2702883265221%2F1%2Foriginal.20260409-025857?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d124821b696c10a027c9e051af824630",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-07-24T22:00:00-04:00"
   },
   {
     "title": "Second Edition of Pittsburgh Caribbean Carnival",
-    "start": "2026-07-25T00:00:00",
+    "start": "2026-07-25T10:00:00-04:00",
     "neighborhood": "Allegheny Center",
     "neighborhood_lat": 40.4521984,
     "neighborhood_lng": -80.01087129999999,
@@ -225,11 +242,12 @@
     "url": "https://www.eventbrite.com/e/second-edition-of-pittsburgh-caribbean-carnival-tickets-1986026278060",
     "description": "Get ready to vibe with Caribbean beats, colorful costumes, and nonstop fun at the second round of this epic carnival!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181752293%2F2702883265221%2F1%2Foriginal.20260409-025720?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1b3cf6d808adfd5b1fbca372e195be49",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-07-25T22:00:00-04:00"
   },
   {
     "title": "35th Annual Pittsburgh Irish Festival",
-    "start": "2026-09-11T00:00:00",
+    "start": "2026-09-11T16:00:00-04:00",
     "neighborhood": "Swisshelm Park",
     "neighborhood_lat": 40.4139414,
     "neighborhood_lng": -79.8897941,
@@ -237,6 +255,7 @@
     "url": "https://www.eventbrite.com/e/35th-annual-pittsburgh-irish-festival-tickets-1972870028363",
     "description": "Three-day Celtic Celebration featuring music, dance, kids activities, food and beverages, and so much more!",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F481770409%2F197589076976%2F1%2Foriginal.20220420-201413?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=65%2C0%2C1952%2C976&s=f1bf3506d54aac87980e05341c4b1fa1",
-    "source": "Eventbrite"
+    "source": "Eventbrite",
+    "end": "2026-09-13T17:00:00-04:00"
   }
 ]
