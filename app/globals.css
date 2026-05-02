@@ -203,6 +203,53 @@ footer {
   color: #c05000;
 }
 
+.badge-meetup {
+  background: #ffeef8;
+  color: #a0006e;
+}
+
+/* Coverage page */
+.coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.coverage-card {
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.coverage-card--has {
+  background: var(--green-pale);
+  border: 1px solid #b7dac8;
+  color: var(--text);
+  transition: background 0.15s;
+}
+
+.coverage-card--has:hover {
+  background: #c8e6d4;
+}
+
+.coverage-card--empty {
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  color: var(--muted);
+}
+
+.coverage-name {
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.coverage-counts {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
 /* Coverage gap notice */
 .gap-notice {
   background: #fff8e1;

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         </header>
         <main>{children}</main>
         <footer>
-          <p>Data sourced from Carnegie Library of Pittsburgh, registered community organizations, and neighborhood groups. Coverage varies by neighborhood.</p>
+          <p>Data sourced from Carnegie Library of Pittsburgh, Pittsburgh Parks Conservancy, Eventbrite, Meetup, and registered community organizations. <a href="/coverage">See coverage by neighborhood →</a></p>
         </footer>
       </body>
     </html>

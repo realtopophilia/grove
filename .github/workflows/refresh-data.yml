@@ -1,0 +1,51 @@
+name: Refresh event data
+
+on:
+  schedule:
+    # Every Sunday at 7 AM ET (11 AM UTC)
+    - cron: '0 11 * * 0'
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch CLP events
+        run: node scripts/fetch-clp-events.js
+
+      - name: Fetch Parks Conservancy events
+        run: node scripts/fetch-parks-events.js
+
+      - name: Fetch Meetup events
+        run: node scripts/fetch-meetup-events.js
+
+      - name: Fetch Eventbrite events + enrich times
+        run: node scripts/fetch-eventbrite-events.js && node scripts/enrich-eventbrite-times.js
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/clp-events.json data/parks-events.json data/meetup-events.json data/eventbrite-events.json
+          if git diff --cached --quiet; then
+            echo "No data changes — skipping commit"
+          else
+            git commit -m "chore: refresh event data [$(date -u '+%Y-%m-%d')]"
+            git push
+          fi

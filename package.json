@@ -9,7 +9,9 @@
     "start": "next start",
     "data:clp": "node scripts/fetch-clp-events.js",
     "data:parks": "node scripts/fetch-parks-events.js",
+    "data:meetup": "node scripts/fetch-meetup-events.js",
     "data:eventbrite": "node scripts/fetch-eventbrite-events.js && node scripts/enrich-eventbrite-times.js",
+    "data:all": "npm run data:clp && npm run data:parks && npm run data:meetup && npm run data:eventbrite",
     "data:enrich": "node --input-type=module scripts/add-meeting-schedules.js"
   },
   "engines": {

@@ -19,7 +19,7 @@ export default async function NeighborhoodPage({ params }) {
   const n = getNeighborhoodBySlug(slug)
   if (!n) notFound()
 
-  const hasAnything = n.clpEvents.length > 0 || n.parksEvents?.length > 0 || n.ebEvents?.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
+  const hasAnything = n.clpEvents.length > 0 || n.parksEvents?.length > 0 || n.ebEvents?.length > 0 || n.meetupEvents?.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
 
   return (
     <>
@@ -102,6 +102,34 @@ export default async function NeighborhoodPage({ params }) {
                         : ev.title}
                     </div>
                     <div className="event-meta">{ev.location_full?.split(',')[0]}</div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Meetup Events */}
+      {n.meetupEvents?.length > 0 && (
+        <section style={{ marginBottom: '2rem' }}>
+          <p className="section-heading">Meetup events</p>
+          <div className="event-grid">
+            {n.meetupEvents.map((ev, i) => {
+              const { day, month, time } = formatEventDate(ev.start)
+              return (
+                <div className="event-card" key={i}>
+                  <div className="event-date">
+                    <span className="day">{day}</span>
+                    <span className="month">{month}</span>
+                  </div>
+                  <div>
+                    <div className="event-title">
+                      {ev.url
+                        ? <a href={ev.url} target="_blank" rel="noopener noreferrer">{ev.title}</a>
+                        : ev.title}
+                    </div>
+                    <div className="event-meta">{time}{ev.group ? ` · ${ev.group}` : ''}</div>
                   </div>
                 </div>
               )
