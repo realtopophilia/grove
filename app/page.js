@@ -1,4 +1,4 @@
-import { getNeighborhoodIndex, getClpEvents, getParksEvents, formatEventDate, slugify } from '../lib/data'
+import { getNeighborhoodIndex, getClpEvents, getParksEvents, getEventbriteEvents, formatEventDate, slugify } from '../lib/data'
 import Link from 'next/link'
 
 export default function Home() {
@@ -8,10 +8,11 @@ export default function Home() {
   const allEvents = [
     ...getClpEvents(),
     ...getParksEvents(),
+    ...getEventbriteEvents(),
   ].sort((a, b) => (a.start || '').localeCompare(b.start || '')).slice(0, 8)
 
   const withEvents = neighborhoods.filter(n =>
-    n.clpEvents.length > 0 || n.parksEvents.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
+    n.clpEvents.length > 0 || n.parksEvents.length > 0 || n.ebEvents.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
   )
 
   return (
@@ -56,13 +57,14 @@ export default function Home() {
       <p className="section-heading">Neighborhoods ({withEvents.length} with coverage)</p>
       <div className="neighborhood-grid">
         {withEvents.map(n => {
-          const totalEvents = n.clpEvents.length + n.parksEvents.length
+          const totalEvents = n.clpEvents.length + n.parksEvents.length + n.ebEvents.length
           return (
             <Link href={`/neighborhood/${n.slug}`} key={n.slug} className="neighborhood-card">
               <div className="name">
                 {n.name}
                 {n.clpEvents.length > 0 && <span className="badge">CLP</span>}
                 {n.parksEvents.length > 0 && <span className="badge badge-parks">Parks</span>}
+                {n.ebEvents.length > 0 && <span className="badge badge-eb">EB</span>}
               </div>
               <div className="count">
                 {[
