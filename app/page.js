@@ -1,0 +1,74 @@
+import { getNeighborhoodIndex, getClpEvents, formatEventDate } from '../lib/data'
+import Link from 'next/link'
+
+export default function Home() {
+  const neighborhoods = getNeighborhoodIndex()
+  const clpEvents = getClpEvents().slice(0, 8) // Show next 8 upcoming events
+
+  const withEvents = neighborhoods.filter(n =>
+    n.clpEvents.length > 0 || n.rcos.length > 0 || n.orgs.length > 0
+  )
+
+  return (
+    <>
+      <div className="hero">
+        <h1>What's happening in Pittsburgh</h1>
+        <p>Events and community meetings, organized by neighborhood.</p>
+      </div>
+
+      <div className="gap-notice">
+        <strong>Coverage note:</strong> Grove is in early development. Events come from Carnegie Library branches and registered community organizations. Many neighborhoods have partial or no coverage yet.
+      </div>
+
+      <p className="section-heading">Upcoming events</p>
+      <div className="event-grid">
+        {clpEvents.map((ev, i) => {
+          const { day, month, time } = formatEventDate(ev.start)
+          return (
+            <div className="event-card" key={i}>
+              <div className="event-date">
+                <span className="day">{day}</span>
+                <span className="month">{month}</span>
+              </div>
+              <div>
+                <div className="event-title">
+                  {ev.url
+                    ? <a href={ev.url} target="_blank" rel="noopener noreferrer">{ev.title}</a>
+                    : ev.title}
+                </div>
+                <div className="event-meta">{time} · {ev.location_full?.split(',')[0]}</div>
+              </div>
+              {ev.neighborhood && (
+                <Link href={`/neighborhood/${require('../lib/data').slugify(ev.neighborhood)}`} className="neighborhood-tag">
+                  {ev.neighborhood}
+                </Link>
+              )}
+            </div>
+          )
+        })}
+      </div>
+
+      <p className="section-heading">Neighborhoods ({withEvents.length} with coverage)</p>
+      <div className="neighborhood-grid">
+        {withEvents.map(n => {
+          const total = n.clpEvents.length + n.rcos.length + n.orgs.length
+          return (
+            <Link href={`/neighborhood/${n.slug}`} key={n.slug} className="neighborhood-card">
+              <div className="name">
+                {n.name}
+                {n.clpEvents.length > 0 && <span className="badge">CLP</span>}
+              </div>
+              <div className="count">
+                {[
+                  n.clpEvents.length > 0 && `${n.clpEvents.length} event${n.clpEvents.length !== 1 ? 's' : ''}`,
+                  n.rcos.length > 0 && `${n.rcos.length} RCO`,
+                  n.orgs.length > 0 && `${n.orgs.length} org`,
+                ].filter(Boolean).join(' · ')}
+              </div>
+            </Link>
+          )
+        })}
+      </div>
+    </>
+  )
+}

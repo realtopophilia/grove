@@ -1,0 +1,275 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green: #2d6a4f;
+  --green-light: #52b788;
+  --green-pale: #d8f3dc;
+  --text: #1b2d24;
+  --muted: #6b7c73;
+  --border: #d0ddd4;
+  --bg: #f8fbf9;
+  --white: #ffffff;
+  --radius: 8px;
+  --font: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: var(--green);
+  color: var(--white);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: 0.875rem;
+  opacity: 0.75;
+}
+
+main {
+  flex: 1;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+footer {
+  background: var(--border);
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+}
+
+/* Home page */
+.hero {
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+/* Event cards */
+.event-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.event-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  gap: 0.75rem 1rem;
+  align-items: start;
+}
+
+.event-date {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.event-date .day {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--green);
+  display: block;
+}
+
+.event-date .month {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.event-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.event-meta {
+  font-size: 0.825rem;
+  color: var(--muted);
+}
+
+.neighborhood-tag {
+  font-size: 0.75rem;
+  background: var(--green-pale);
+  color: var(--green);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  font-weight: 500;
+  white-space: nowrap;
+  align-self: start;
+}
+
+/* Neighborhood list */
+.neighborhood-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.neighborhood-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.neighborhood-card:hover {
+  border-color: var(--green-light);
+  box-shadow: 0 2px 8px rgba(45,106,79,0.1);
+}
+
+.neighborhood-card .name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.neighborhood-card .count {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  background: var(--green-pale);
+  color: var(--green);
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+  margin-left: 0.4rem;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+/* Coverage gap notice */
+.gap-notice {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: var(--radius);
+  padding: 0.875rem 1rem;
+  font-size: 0.875rem;
+  color: #5d4037;
+  margin-bottom: 2rem;
+}
+
+/* Neighborhood detail page */
+.back-link {
+  display: inline-block;
+  color: var(--green);
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.back-link:hover { text-decoration: underline; }
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+}
+
+.org-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.org-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+.org-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.org-meta {
+  font-size: 0.825rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.org-schedule {
+  font-size: 0.825rem;
+  color: var(--text);
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--border);
+}
+
+.no-events {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--white);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+@media (max-width: 600px) {
+  .event-card {
+    grid-template-columns: 56px 1fr;
+  }
+  .neighborhood-tag { display: none; }
+}

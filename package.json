@@ -1,0 +1,22 @@
+{
+  "name": "grove",
+  "version": "0.1.0",
+  "description": "Pittsburgh neighborhood events",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "data:clp": "node scripts/fetch-clp-events.js",
+    "data:enrich": "node --input-type=module scripts/add-meeting-schedules.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ical.js": "^2.2.1",
+    "next": "^15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
