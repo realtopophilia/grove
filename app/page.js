@@ -1,4 +1,4 @@
-import { getNeighborhoodIndex, getClpEvents, formatEventDate } from '../lib/data'
+import { getNeighborhoodIndex, getClpEvents, formatEventDate, slugify } from '../lib/data'
 import Link from 'next/link'
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="event-meta">{time} · {ev.location_full?.split(',')[0]}</div>
               </div>
               {ev.neighborhood && (
-                <Link href={`/neighborhood/${require('../lib/data').slugify(ev.neighborhood)}`} className="neighborhood-tag">
+                <Link href={`/neighborhood/${slugify(ev.neighborhood)}`} className="neighborhood-tag">
                   {ev.neighborhood}
                 </Link>
               )}
