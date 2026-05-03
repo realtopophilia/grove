@@ -1,450 +1,469 @@
 [
   {
-    "rco_id": 6,
-    "rco_name": "Bloomfield Development Corporation",
-    "neighborhood": "Bloomfield",
-    "source": "ical",
-    "ical_url": "https://bloomfieldpgh.org/events/?ical=1",
-    "events": [
-      {
-        "title": "May Board Meeting with City Controller Rachael Heisler",
-        "start": "2026-05-27T22:30:00.000Z",
-        "end": "2026-05-28T00:30:00.000Z",
-        "description": "The May meeting of the BDC Board of Directors. Review the Agenda here! \n\n\n\nThese meetings are open to the public and always include a guest presentation or activity in the first hour. Snacks will be provided!This meeting’s presenter is the City Controller Rachael Heisler. The City Controller is the fiscal watchdog for the citizens of the City of Pittsburgh. It is the job of the Controller to protect City tax dollars from waste, fraud and abuse. The Controller does this by auditing all city government related expenditures (the City also has a Finance Department and Treasurer who collect and audit all City revenues). \n\n\n\nThe Controller will present the City’s Annual Comprehensive Financial Report (ACFR) that is scheduled to release May 1st.",
-        "location": "Creative Chem Co., 4618 Friendship Ave, Pittsburgh, Pennsylvania, 15224, United States",
-        "url": "https://bloomfieldpgh.org"
-      }
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
     ],
-    "error": null
+    "name": "Road Closures for 2026 Pittsburgh Marathon",
+    "start": "2026-05-03T05:30:00.984Z",
+    "end": "2026-05-03T19:30:00.984Z",
+    "url": "https://www.opdc.org/events/2026/5/3/road-closures-for-2026-pittsburgh-marathon",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 7,
-    "rco_name": "Bloomfield-Garfield Corporation",
-    "neighborhood": "Bloomfield / Garfield",
-    "source": "ical",
-    "ical_url": "https://bloomfield-garfield.org/events-calendar/?ical=1",
-    "events": [],
-    "error": "Cannot read properties of undefined (reading 'length')"
-  },
-  {
-    "rco_id": 11,
-    "rco_name": "Charles Street Area Corporation",
-    "neighborhood": "North Side / Deutschtown area",
-    "source": "ical",
-    "ical_url": "https://csacpa.org/events/?ical=1",
-    "events": [],
-    "error": "Cannot read properties of undefined (reading 'length')"
-  },
-  {
-    "rco_id": 14,
-    "rco_name": "East Allegheny Community Council",
-    "neighborhood": "Deutschtown / East Allegheny",
-    "source": "ical",
-    "ical_url": "https://deutschtown.org/events/?ical=1",
-    "events": [],
-    "error": "Cannot read properties of undefined (reading 'length')"
-  },
-  {
-    "rco_id": 21,
-    "rco_name": "Hill Community Development Corporation",
-    "neighborhood": "Hill District",
-    "source": "ical",
-    "ical_url": "https://www.hilldistrict.org/events/?ical=1",
-    "events": [
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-05-14T14:00:00.000Z",
-        "end": "2026-05-14T18:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-05-21T14:00:00.000Z",
-        "end": "2026-05-21T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-05-21T14:00:00.000Z",
-        "end": "2026-05-21T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-05-27T14:00:00.000Z",
-        "end": "2026-05-27T18:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-06-11T14:00:00.000Z",
-        "end": "2026-06-11T18:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-06-18T14:00:00.000Z",
-        "end": "2026-06-18T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-06-18T14:00:00.000Z",
-        "end": "2026-06-18T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-06-24T14:00:00.000Z",
-        "end": "2026-06-24T18:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-07-09T14:00:00.000Z",
-        "end": "2026-07-09T18:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-07-16T14:00:00.000Z",
-        "end": "2026-07-16T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-07-16T14:00:00.000Z",
-        "end": "2026-07-16T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-07-22T14:00:00.000Z",
-        "end": "2026-07-22T18:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-08-13T14:00:00.000Z",
-        "end": "2026-08-13T18:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-08-20T14:00:00.000Z",
-        "end": "2026-08-20T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-08-20T14:00:00.000Z",
-        "end": "2026-08-20T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-08-26T14:00:00.000Z",
-        "end": "2026-08-26T18:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-09-10T14:00:00.000Z",
-        "end": "2026-09-10T18:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-09-17T14:00:00.000Z",
-        "end": "2026-09-17T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-09-17T14:00:00.000Z",
-        "end": "2026-09-17T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-09-23T14:00:00.000Z",
-        "end": "2026-09-23T18:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-10-08T14:00:00.000Z",
-        "end": "2026-10-08T18:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-10-15T14:00:00.000Z",
-        "end": "2026-10-15T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-10-15T14:00:00.000Z",
-        "end": "2026-10-15T18:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-10-28T14:00:00.000Z",
-        "end": "2026-10-28T18:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-11-12T15:00:00.000Z",
-        "end": "2026-11-12T19:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-11-19T15:00:00.000Z",
-        "end": "2026-11-19T19:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
-        "start": "2026-11-19T15:00:00.000Z",
-        "end": "2026-11-19T19:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Duquesne University",
-        "start": "2026-11-25T15:00:00.000Z",
-        "end": "2026-11-25T19:00:00.000Z",
-        "description": "The Duquesne University Small Business Development Center (SBDC) – \nWe offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs and small business owners with the knowledge they need to start, grow and prosper.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
-        "start": "2026-12-10T15:00:00.000Z",
-        "end": "2026-12-10T19:00:00.000Z",
-        "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for conducting market research, the types of loans available for small businesses, and other general business support.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      },
-      {
-        "title": "Small Business Hours with Chatham University Women's Business Center",
-        "start": "2026-12-17T15:00:00.000Z",
-        "end": "2026-12-17T19:00:00.000Z",
-        "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh Institute for Entrepreneurial Excellence, and Allegheny County’s MW/DBE liaison host office hours at the Hill CDC. The Hill CDC serves as the liaison to schedule and confirm the appointments. Business support registrations can be made through the link below.",
-        "location": null,
-        "url": "https://hilldistrict.org"
-      }
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
     ],
-    "error": null
+    "name": "DPW: Free Mulch and Compost",
+    "start": "2026-05-09T10:00:00.751Z",
+    "end": "2026-05-09T23:00:00.751Z",
+    "url": "https://www.opdc.org/events/2026/5/9/dpw-free-mulch-and-compost",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 47,
-    "rco_name": "Uptown Partners of Pittsburgh",
-    "neighborhood": "Uptown",
-    "source": "ical",
-    "ical_url": "https://www.uptownpartners.org/events/?ical=1",
-    "events": [],
-    "error": "Cannot read properties of undefined (reading 'length')"
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "Pittonkatonk is back !!!",
+    "start": "2026-05-09T17:00:00.734Z",
+    "end": "2026-05-10T02:00:00.734Z",
+    "url": "https://www.opdc.org/events/2026/5/9/pittonkatonk-is-back-",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 4,
-    "rco_name": "Beltzhoover Consensus Group",
-    "neighborhood": "Beltzhoover",
-    "source": "html",
-    "page_url": "https://www.bcg15210.org/news",
-    "events": [],
-    "raw_text": "-->\n\nDocuments | Bcg412\n\ntop of page\n\nHome\n\nAbout\n\nOur Work\n\nDocuments\n\nContact\n\nMore...\n\nUse tab to navigate through the menu items.\n\nDocuments\n\nAll Posts\n\nSearch\n\nBCG Minutes 6/12/25\n\nbcg15210\n\nNov 16, 2025\n\n0 min read\n\nBCG Minutes 5/8/25\n\nbcg15210\n\nNov 16, 2025\n\n0 min read\n\nBCG Minutes 3/13/25\n\nbcg15210\n\nNov 16, 2025\n\n0 min read\n\nBCG Minutes 2/13/25\n\nbcg15210\n\nNov 16, 2025\n\n0 min read\n\n&copy; 2023 Beltzhoover Consensus Group |  Terms of Use\n\n|\n\nPrivacy Policy\n\nbottom of page",
-    "error": null,
-    "dates_found": []
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "Oakcliffe Community Organization Meeting (hybrid)",
+    "start": "2026-05-13T23:00:00.775Z",
+    "end": "2026-05-14T00:30:00.775Z",
+    "url": "https://www.opdc.org/events/2026/5/13/oakcliffe-community-organization-meeting-hybrid",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 5,
-    "rco_name": "Bloomfield Alliance",
-    "neighborhood": "Bloomfield",
-    "source": "html",
-    "page_url": "https://bloomfieldalliance.org/agendas-minutes",
-    "events": [],
-    "raw_text": "Agendas & Minutes &mdash; Growing Inclusive Community Traditions\n\n0\n\nSkip to Content\n\nHome\n\nAbout\n\nAgendas & Minutes\n\nEvents\n\nJoin Us\n\nCommunity Input\n\nContact & Feedback\n\nOpen Menu\n\nClose Menu\n\nHome\n\nAbout\n\nAgendas & Minutes\n\nEvents\n\nJoin Us\n\nCommunity Input\n\nContact & Feedback\n\nOpen Menu\n\nClose Menu\n\nHome\n\nAbout\n\nAgendas & Minutes\n\nEvents\n\nJoin Us\n\nCommunity Input\n\nContact & Feedback\n\nCommunity Meetings\n\nMeetings are held once per quarter and are open to the public and community at large.\n\nYou can submit questions or concerns to us ahead of time.\n\nIf you need accommodations, we will work with you to make our meetings as accessible as possible.\n\nQ4 -2025 Community Meeting\n\n2025 Q4\n\n2025 - Q2\n\n2025 - Q1\n\n2024 - Q4\n\nInitial Meeting\n\n2024 - Q3\n\nLeave us your email to stay informed\n\nSign up with your email address to receive news and updates.\n\nFirst Name\n\nLast Name\n\nEmail Address\n\nSign Up\n\nWe value and respect your privacy. We do not share your contact information without your consent.\n\nThank you!\n\nLEARN MORE\n\nEVENTS\n\nABOUT\n\nJOURNAL\n\nGET IN TOUCH\n\nJOIN US\n\nCONTACT US\n\nCONNECT\n\nBloomfield Alliance: non-profit, volunteer, neighborhood organization",
-    "error": null,
-    "dates_found": []
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
+    "start": "2026-05-14T10:00:00-04:00",
+    "end": "2026-05-14T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-the-university-of-pittsburgh-institute-for-entreprenurial-excellence/2026-05-14/",
+    "location": null,
+    "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for con",
+    "source": "rco-ical"
   },
   {
-    "rco_id": 9,
-    "rco_name": "Brookline Together",
-    "neighborhood": "Brookline",
-    "source": "html",
-    "page_url": "https://www.brooklinetogether.org/events",
-    "events": [],
-    "raw_text": "-->\n\nEvents & Initiatives | Brookline Together\n\ntop of page\n\nBrookline Together\n\nSchedule a Development Activities Meeting (DAM)\n\nHome\n\nOur Board\n\nPresident\n\nTreasurer\n\nBeautification\n\nBusiness & Community Engagement\n\nEvents & Initiatives\n\nCommunity Yard Sale\n\nBreeze 5k Race\n\nBreezefest\n\nBowling League\n\nTuesday Food Trucks\n\nFarmers&#x27; Market\n\nHalloween Parade\n\nBrookline Lights Up\n\nBeautification\n\nResources\n\nNews & Connect\n\n5 Questions\n\nResources\n\nBusiness Survey\n\nCommunity Survey\n\nMeeting Minutes\n\nDirectory\n\nBT Member Deals\n\nSponsorship\n\nMembership\n\nMembership Login\n\nDonate\n\nShop\n\nVolunteer\n\nContact\n\nMore\n\nUse tab to navigate through the menu items.\n\nOur Initiatives\n\nMembers: You must be logged in to add an event\n\nOne of the more visible ways that BT supports Brookline is by its many projects and activities. These efforts are identified and then implemented by members of the community for the benefit of the community.\n\n​\n\nScroll through the events directory below to see when community meetings, committee meetings, events, and cleanup days are being held. If you are looking to volunteer, click here for more information.\n\nSponsored by:\n\nEvents\n\nEmail us:\n\nbrooklinetogether@gmail.com\n\nMailing Address: P.O. Box 9606, Pittsburgh, PA 15226\n\n​\n\n​\n\n&copy;2025 by Brookline Together\n\nbottom of page",
-    "error": null,
-    "dates_found": []
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "OAKLAND TOGETHER at Schenely Plaza",
+    "start": "2026-05-14T22:00:00.079Z",
+    "end": "2026-05-15T01:00:00.079Z",
+    "url": "https://www.opdc.org/events/2026/5/14/oakland-together",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 19,
-    "rco_name": "Hazelwood Initiative",
-    "neighborhood": "Hazelwood",
-    "source": "html",
-    "page_url": "https://www.hazelwoodinitiative.org/events",
-    "events": [],
-    "raw_text": "-->\n\nEvents | Hazelwood Initiative\n\ntop of page\n\nJanuary\n\nJanuary\n\nJanuary\n\nJanuary\n\nJanuary\n\nJanuary\n\nJanuary\n\nJanuary\n\nButton\n\nJanuary\n\nJanuary\n\nAHOP\n\nAffordable Home Ownership Program\n\nLocal Newspaper\n\nHome\n\nAbout\n\nHistory\n\nAreas of Work\n\nStrategic plan\n\nBoard\n\nStaff\n\nDocuments\n\nPhoto Gallery\n\nPrograms\n\nReal Estate\n\nRental Housing\n\nHomeownership\n\nGladstone Residences\n\nGreen spaces\n\nAssistance Programs and Resources\n\nHousehold Assistance\n\nEvents\n\nNews\n\nThe Homepage\n\nBlog\n\nHI in the news\n\nEngage\n\nContact\n\nMembership\n\nDonate\n\nMore\n\nUse tab to navigate through the menu items.\n\nMeetings & Events\n\nThis is a listing of meetings and events hosted by Hazelwood Initiative or in conjunction with our partners.\n\nFor other events happening in the neighborhood, please visit the\n\nMaking A Greater Hazelwood\n\ndigital community bulletin board, or the event page for\n\nHazelwood Local\n\n, which promotes and organizes events for Hazelwood Green Plaza and the Greater Hazelwood community.\n\nGiant Eagle Mobile Market (Glen Hazel)\n\nEvery Wednesday @ 1:30am - 3:30pm\n\n​\n\nGiant Eagle Mobile Market (Hazelwood)\n\nEvery Saturday @ 10:30am - 12:30pm\n\n​\n\nWe are so happy to be partnering with P.O.O.R.L.A.W, GH-CARED, Arts Excursions Unlimited, Housing Authority of the City of Pittsburgh, and AHRCO to bring this resource to the community! Get food conveniently every Saturday morning from the Giant Eagle mobile market, stationed next to our office (4915 Second Ave.).  Produce is half off! WIC accepted!\n\nCARDS ONLY,\n\nNO CASH  , so bring your debit, credit, EBT, gift card or checkbook to buy.\n\nGreater Hazelwood monthly hybrid community meeting, hosted by Hazelwood Initiative\n\nSecond Tuesday of each month from 6-8 p.m.  ​\n\n​\n\nWhere: Hybrid via Zoom and in-person at Community Kitchen Pittsburgh (107 Flowers Ave.)\n\nRSVP\n\nHERE\n\nfor the Zoom link.\n\nHazelwood Initiative, Inc. \n4901 Second Ave, 2nd Floor \nPittsburgh, PA 15207 \n(412) 421-7234 \ninfo@hazelwoodinitiative.org\n\n&copy; 2024\n\nbottom of page",
-    "error": null,
-    "dates_found": []
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "PRIMARY ELECTION DAY 2026",
+    "start": "2026-05-19T11:00:00.925Z",
+    "end": "2026-05-20T00:00:00.925Z",
+    "url": "https://www.opdc.org/events/2026/4/9/primary-election-day",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 22,
-    "rco_name": "Hill District Collaborative",
-    "neighborhood": "Hill District",
-    "source": "html",
-    "page_url": "https://hillvoices.org/events",
-    "events": [],
-    "raw_text": "EVENTS\n\nHOME\n\nMISSION\n\nEVENTS\n\nDevelopment Meetings\n\nCOMMUNICATION STRATEGY\n\nMore\n\nHOME\n\nMISSION\n\nEVENTS\n\nDevelopment Meetings\n\nCOMMUNICATION STRATEGY\n\nHOME\n\nMISSION\n\nEVENTS\n\nDevelopment Meetings\n\nCOMMUNICATION STRATEGY\n\nCommunity Events\n\nCommunity Mixer\n\nJune 14, 2022 @ 6:00pm\n\nKaufmann Auditorium -  1825 Centre Avenue\n\nJoin the Urban Redevelopment Authority of Pittsburgh (URA) for the first Hill Community Mixer of 2022 in partnership with the office of Councilman R. Daniel Lavelle. This meeting will provide information on current URA-led development projects within the Hill District, as well as programs and services available to residents and business owners.\n\nCommunity Meeting\n\nMarch 3, 2022 @ 6:00pm\n\nKaufmann Auditorium -  1825 Centre Avenue\n\nJoin the community to discus the LERTA Fund and the role of Local Government\n\nCommunity Meeting\n\nFebruary 11th, 2025 @ 6:00pm\n\nACH Clear Pathways\n\nKauffman Center\n\n510 Heldman Street \nJoin us as we discuss\n\nURA-Lerta Fund Update\n\nHill District Development Projects\n\nCommunity Updates and More\n\nCommunity Meeting\n\nMarch 10th, 2025 @ 5:30pm\n\nEnergy Innovation Center (EIC)\n\n1435 Bedford Avenue\n\nJoin us to discuss important updates about the\n\nLERTA Fund and Hill District Development Projects.\n\nCommunity Meeting\n\nJuly 16, 2025 @ 6:00pm\n\nEnergy Innovation Center (EIC)\n\n1435 Bedford Avenue\n\nGAIN A BETTER UNDERSTANDING OF THE REAL ESTATE DEVELOPMENT PROCESS\n\nFrom Vision to Ribbon-Cutting:\n\nA step-by-step explanation of how real estate projects are planned, funded, and built.\n\nCome with questions to learn how real estate development impacts your neighborhood!\n\nCommunity Meeting\n\nAugust 13, 2025 @ 6:00pm\n\nEnergy Innovation Center (EIC)\n\n1435 Bedford Avenue, 2nd Floor\n\nGAIN A BETTER UNDERSTANDING OF THE REAL ESTATE DEVELOPMENT PROCESS\n\nFrom Vision to Ribbon-Cutting:\n\nPre-Development Basics (Part 1)\n\nAcquisition, Design & Funding\n\nCome with questions to learn how real estate development impacts your neighborhood!\n\nCommunity Meeting\n\nSeptember 24th, 2025 @ 6:00pm\n\nEnergy Innovation Center (EIC)\n\n1435 Bedford Avenue\n\nGAIN A BETTER UNDERSTANDING OF THE REAL ESTATE DEVELOPMENT PROCESS\n\nFrom Vision to Ribbon-Cutting:\n\nPre-Development Basics ( Part 2)\n\nPreparing for and Applying to Funding\n\nCome with questions to learn how real estate development impacts your neighborhood!\n\nCopyright © 2026 Hill District Collaborative - All Rights Reserved.\n\nPowered by\n\nThis website uses cookies.\n\nWe use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.\n\nAccept",
-    "error": null,
-    "dates_found": [
-      "June 14, 2022",
-      "March 3, 2022",
-      "July 16, 2025",
-      "August 13, 2025"
-    ]
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "Engagement Meeting for the 2027 Budget",
+    "start": "2026-05-20T22:00:00.237Z",
+    "end": "2026-05-20T23:00:00.237Z",
+    "url": "https://www.opdc.org/events/2026/5/20/engagement-meeting-for-the-2027-budget",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 26,
-    "rco_name": "Larimer Consensus Group",
-    "neighborhood": "Larimer",
-    "source": "html",
-    "page_url": "https://www.larimerconsensusgroup.org/calendar",
-    "events": [],
-    "raw_text": "-->\n\nUpcoming Events | Larimer Consensus Group\n\ntop of page\n\nHome\n\nAbout\n\nOur History\n\nOur Mission\n\nCore Values\n\nLCG Community Plan\n\nMeet the Staff\n\nOur Work\n\nWhat We Do\n\nOur Current Goals\n\nThe Future\n\nCommunity\n\nPrograms\n\nDevelopment Activity Meeting\n\nScholarships/Grants\n\nResources\n\n412 Food\n\nSteel City Squash\n\nUpcoming Events\n\nContact Us\n\nMore...\n\nUse tab to navigate through the menu items.\n\nDONATE\n\nCalendar\n\nPrograms\n\nWe Need Your Support Today!\n\nDonate\n\n&copy;2025 by Larimer Consensus. Redesign by TEaddy\n\n​\n\nbottom of page",
-    "error": null,
-    "dates_found": []
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "Let's Talk: TBD",
+    "start": "2026-05-20T22:00:00.897Z",
+    "end": "2026-05-20T23:00:00.897Z",
+    "url": "https://www.opdc.org/events/2026/5/20/lets-talk-tbd",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 33,
-    "rco_name": "Oakcliffe Community Organization of South Oakland",
-    "neighborhood": "South Oakland / Oakcliffe",
-    "source": "html",
-    "page_url": "https://oakcliffe.org/oco-calendar/",
-    "events": [],
-    "raw_text": "OCO Calendar |\n\nHOME\n\nCommunity Projects\n\nContact\n\nInfo/Links\n\nOakcliffe Map\n\nOCO Calendar\n\nTheme Proposal\n\nOCO Calendar\n\nTheme Proposal\n\nOakcliffe Map\n\nOakcliffe Community Organization\n\nOCO Calendar\n\nOakcliffe Community Organization (OCO) Calendar\n\nMost Recent Posts\n\nLetter From A Concerned Neighbor About School Buses\n\nOakcliffe/Pitt &#8220;Be A Good Neighbor&#8221; Block Party Tue 9/24 POSTPONED to 10/15\n\nOCO September 11, 2024 Meeting Info\n\nOCO August 14, 2024 Meeting Info\n\nJuly 2024 Mtg Info\n\nCategories\n\nAllegheny County  (5)\n\nCommunity  (171)\n\nEducation  (41)\n\nEmployment/Training  (33)\n\nEntertainment/Hospitality  (69)\n\nEnvironment/Health  (139)\n\nEvents  (206)\n\nGeneral  (394)\n\nGovernment/Legislation  (29)\n\nHearings/Meetings/Planning  (112)\n\nInstitutions  (32)\n\nMoney/Finance  (71)\n\nOakland  (150)\n\nOCO/Oakcliffe  (11)\n\nPennsylvania  (2)\n\nPittsburgh  (101)\n\nTransportation  (92)\n\nUncategorized  (1)\n\nVolunteering  (49)\n\nPosts By Date\n\nApril 2026\n\nM\n\nT\n\nW\n\nT\n\nF\n\nS\n\nS\n\n1  2  3  4  5\n\n6  7  8  9  10  11  12\n\n13  14  15  16  17  18  19\n\n20  21  22  23  24  25  26\n\n27  28  29  30\n\n&laquo; Dec\n\nPosting Archives\n\nPosting Archives\n\nSelect Month\n\nDecember 2024  (1)\n\nSeptember 2024  (2)\n\nAugust 2024  (1)\n\nJuly 2024  (1)\n\nJune 2022  (1)\n\nMarch 2021  (1)\n\nDecember 2020  (2)\n\nNovember 2020  (3)\n\nOctober 2020  (4)\n\nAugust 2020  (1)\n\nJuly 2020  (1)\n\nJune 2020  (1)\n\nMay 2020  (1)\n\nMarch 2020  (1)\n\nFebruary 2020  (1)\n\nJanuary 2020  (1)\n\nDecember 2019  (2)\n\nNovember 2019  (3)\n\nAugust 2019  (4)\n\nJuly 2019  (7)\n\nJune 2019  (4)\n\nMay 2019  (3)\n\nApril 2019  (6)\n\nMarch 2019  (1)\n\nFebruary 2019  (5)\n\nJanuary 2019  (8)\n\nDecember 2018  (2)\n\nNovember 2018  (2)\n\nOctober 2018  (7)\n\nSeptember 2018  (4)\n\nAugust 2018  (3)\n\nJuly 2018  (2)\n\nJune 2018  (2)\n\nMay 2018  (3)\n\nApril 2018  (19)\n\nMarch 2018  (7)\n\nJanuary 2018  (3)\n\nDecember 2017  (5)\n\nNovember 2017  (2)\n\nOctober 2017  (5)\n\nSeptember 2017  (5)\n\nAugust 2017  (1)\n\nJuly 2017  (5)\n\nJune 2017  (12)\n\nMay 2017  (8)\n\nApril 2017  (6)\n\nMarch 2017  (10)\n\nFebruary 2017  (6)\n\nJanuary 2017  (11)\n\nDecember 2016  (11)\n\nNovember 2016  (9)\n\nOctober 2016  (17)\n\nSeptember 2016  (11)\n\nAugust 2016  (16)\n\nJuly 2016  (11)\n\nJune 2016  (14)\n\nMay 2016  (10)\n\nApril 2016  (12)\n\nMarch 2016  (16)\n\nFebruary 2016  (25)\n\nJanuary 2016  (19)\n\nDecember 2015  (9)\n\nNovember 2015  (12)\n\nOctober 2015  (9)\n\nSeptember 2015  (19)\n\nAugust 2015  (12)\n\nJuly 2015  (14)\n\nJune 2015  (27)\n\nMay 2015  (21)\n\nApril 2015  (20)\n\nMarch 2015  (23)\n\nFebruary 2015  (14)\n\nJanuary 2015  (24)\n\nDecember 2014  (18)\n\nNovember 2014  (20)\n\nOctober 2014  (13)\n\nSeptember 2014  (14)\n\nAugust 2014  (10)\n\nJuly 2014  (5)\n\nJune 2014  (14)\n\nMay 2014  (15)\n\nApril 2014  (19)\n\nMarch 2014  (16)\n\nFebruary 2014  (15)\n\nJanuary 2014  (26)\n\nJuly 2013  (5)\n\nApril 2013  (12)\n\nMarch 2013  (8)\n\nFebruary 2013  (13)\n\nMost Recent Posts\n\nLetter From A Concerned Neighbor About School Buses\n\nOakcliffe/Pitt &#8220;Be A Good Neighbor&#8221; Block Party Tue 9/24 POSTPONED to 10/15\n\nOCO September 11, 2024 Meeting Info\n\nOCO",
-    "error": null,
-    "dates_found": [
-      "September 11, 2024",
-      "August 14, 2024"
-    ]
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Chatham University Women's Business Center",
+    "start": "2026-05-21T10:00:00-04:00",
+    "end": "2026-05-21T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-chatham-university/2026-05-21/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
   },
   {
-    "rco_id": 34,
-    "rco_name": "Oakland Business Improvement District",
-    "neighborhood": "Oakland",
-    "source": "html",
-    "page_url": "https://oaklandpittsburgh.com/events",
-    "events": [],
-    "raw_text": "Oakland, Pittsburgh | Pennsylvania's Global Center\n\nOakland  Pittsburgh, PA\n\nMenu\n\nExplore\n\nEvents\n\nOakland Restaurant Week\n\nOnly in Oakland\n\nDo Business\n\nWhy Oakland\n\nDevelopments\n\nCommercial Real Estate\n\nAbout\n\nMission and Vision\n\nMember Resources\n\nOBID Team\n\nOBID Board\n\nOakland  Pittsburgh, PA\n\nNews\n\nContact Us\n\nSubmit An Event\n\nDevelopments\n\nFacebook\n\nLinked In\n\nInstagram\n\nFlickr\n\nStay up to date\n\nEmail Address\n\nPrivacy Policy\n\n© 2026 Oakland Business Improvement District | Website Designed & Developed by\n\nWall-to-Wall Studios\n\n| This site meets WCAG 2.1 Web Accessibility Standards.",
-    "error": null,
-    "dates_found": []
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
+    "start": "2026-05-21T10:00:00-04:00",
+    "end": "2026-05-21T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/monthly-small-business-hours-with-the-allegheny-county-department-of-equity-and-inclusion/2026-05-21/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
   },
   {
-    "rco_id": 38,
-    "rco_name": "Point Breeze North Development Corporation",
-    "neighborhood": "Point Breeze North",
-    "source": "html",
-    "page_url": "https://pointbreezenorth.com/events",
-    "events": [],
-    "raw_text": "Events &mdash; Point Breeze North\n\nPoint Breeze North\n\nWelcome\n\nEvents\n\nResources\n\nAbout\n\nContact\n\nWelcome  /\n\nEvents  /\n\nResources  /\n\nAbout  /\n\nContact  /\n\nEvents\n\nWelcome  /\n\nEvents  /\n\nResources  /\n\nAbout  /\n\nContact  /\n\nSep\n\n18\n\n12:00 AM  00:00\n\nMeade Street Block Party\n\nSunday, September 18, 2022\n\n12:00 AM\n\n11:00 PM\n\n00:00\n\n23:00\n\nGoogle Calendar\n\nICS\n\nAnnual Meade Street Block Party is back! More details coming soon.\n\nView Event &#8594;\n\nSep\n\n17\n\n9:00 AM  09:00\n\nPoint Breeze Yard Sale\n\nSaturday, September 17, 2022\n\n9:00 AM\n\n3:00 PM\n\n09:00\n\n15:00\n\nGoogle Calendar\n\nICS\n\nPoint Breeze’s annual community yard sale! PBN participates as well, you can host your own and register to be put on the map or simply walk the neighborhoods.  From 9am - 3pm. Expect lots of people on foot, bike, and car slow rolling through.  More information here:  https://www.pointbreezepgh.org/yardsale.html.\n\nView Event &#8594;\n\nSep\n\n12\n\n7:00 PM  19:00\n\nCommunity Meeting\n\nMonday, September 12, 2022\n\n7:00 PM\n\n8:00 PM\n\n19:00\n\n20:00\n\nGoogle Calendar\n\nICS\n\nPlease join us for our virtual Zoom meeting at the following link where we will have the following items to discuss:\n\nNews on Lexington Technology Park from the URA\n\nWestinghouse Park Master Plan launch and Westinghouse Park Second Century Coalition Updates\n\nNegley Run Watershed news\n\nPittsburgh Water and Sewer Work Updates\n\nTraffic Calming\n\nTopic: PBNDC - Community Meeting  Time: Sep 12, 2022 07:00 PM Eastern Time (US and Canada)\n\nJoin Zoom Meeting\n\nhttps://us06web.zoom.us/j/88427282798?pwd=QVZnL3U3Q0taakVaODA0TXdMajUzQT09\n\nMeeting ID: 884 2728 2798  Passcode: 250968  Dial by your location\n\n+1 312 626 6799 US (Chicago)\n\n+1 646 931 3860 US\n\n+1 929 205 6099 US (New York)\n\n+1 301 715 8592 US (Washington DC)\n\nView Event &#8594;\n\nMay\n\n2\n\n7:00 PM  19:00\n\nPBNDC Community Meeting\n\nMonday, May 2, 2022\n\n7:00 PM\n\n8:00 PM\n\n19:00\n\n20:00\n\nGoogle Calendar\n\nICS\n\nBimonthly community meeting open to all\n\nView Event &#8594;\n\nApr\n\n30\n\nto May 1\n\nArbor Day Celebration at Mellon Park\n\nSat, Apr 30, 2022\n\n11:00 AM\n\n11:00\n\nSun, May 1, 2022\n\n2:00 PM\n\n14:00\n\nGoogle Calendar\n\nICS\n\nJoin Friends of Mellon Park, the City of Pittsburgh, and Tree Pittsburgh on April 30 to enjoy a family-friendly Arbor Day celebration and the beautiful trees in Mellon Park! This will be a day to celebrate the park, appreciate its beauty, and bring East End neighbors together to appreciate it all.\n\nThere will be a tree planting, guided tree tours, live music, lawn games, kids' activities, food, a scavenger hunt, and more. Please join us on the south side of Mellon Park on Saturday, April 30, from 11:00 a.m. - 2:00 p.m., rain or shine!  Tree Pittsburgh is offering free trees, so if you'd like a tree to plant at home, please visit their Tree Adoption  Registration Page .\n\nView Event &#8594;\n\nApr\n\n25\n\n6:00 PM  18:00\n\nPBNDC Board Meeting\n\nMonday, April 25, 2022\n\n6:00 PM\n\n7:00 PM\n\n18:00\n\n19:00\n\nGoogle Calendar\n\nICS\n\nMonthly board meeting\n\nView Event &#8594;\n\nApr\n\n23\n\n9:00 AM  09:",
-    "error": null,
-    "dates_found": [
-      "September 18, 2022",
-      "September 17, 2022",
-      "September 12, 2022",
-      "May 2, 2022",
-      "May 1, 2022",
-      "April 25, 2022",
-      "April 23, 2022",
-      "March 28, 2022",
-      "March 26, 2022",
-      "March 24, 2022",
-      "March 18, 2022",
-      "March 7, 2022"
-    ]
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "West Oakland Block Club",
+    "start": "2026-05-21T22:30:00.683Z",
+    "end": "2026-05-22T00:30:00.683Z",
+    "url": "https://www.opdc.org/events/2026/5/21/west-oakland-block-club",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
   },
   {
-    "rco_id": 48,
-    "rco_name": "Village Collaborative of East Liberty",
-    "neighborhood": "East Liberty",
-    "source": "html",
-    "page_url": "https://www.eastliberty.org/news-events/",
-    "events": [],
-    "raw_text": "News and Events in East Liberty | East Liberty Development Inc\n\nDonate to ELDI\n\nWhere to live\n\nAffordable Housing Resources\n\nHouses for Sale\n\nNews &#038; Events\n\nAbout East Liberty\n\nAbout ELDI\n\nELDI Board\n\nELDI Staff\n\nOur Impact\n\nInternships in East Liberty\n\nWhat We Do\n\nELDI Plans &#038; Studies\n\nELDI Spin-Offs\n\nVillage Collaborative RCO\n\nContact / Newsletter\n\nWhere to live\n\nAffordable Housing Resources\n\nHouses for Sale\n\nNews &#038; Events\n\nAbout East Liberty\n\nAbout ELDI\n\nELDI Board\n\nELDI Staff\n\nOur Impact\n\nInternships in East Liberty\n\nWhat We Do\n\nELDI Plans &#038; Studies\n\nELDI Spin-Offs\n\nVillage Collaborative RCO\n\nContact / Newsletter\n\nQuick Links\n\n107 Elena Court\n\n112 Auburn Street\n\n133 Enterprise Street\n\n137 Mayflower Street\n\n141-143 Meadow Street\n\n157 Auburn Street\n\n163 Mayflower Street\n\n2023 Impact Report\n\n215 Schenley Manor Drive\n\n239 Renfrew Street\n\n27 Mayflower Street\n\n302 Enright Court\n\n406 Larimer Avenue\n\n430-432 North Beatty Street\n\n440 Enright Court\n\n45 Carver Street\n\n474 Enright Court\n\n476 Enright Court\n\n4916 Dearborn Street\n\n500 North Sheridan Avenue\n\n512 North Euclid Avenue\n\n519-521 North Fairmount Street\n\n5521 Broad Street\n\n5624 Rural Street\n\n5636 Rural Street\n\n5708 Weldin Way\n\n5710 Weldin Way\n\n601 Larimer Avenue\n\n617 Lenora Street\n\n617 North Homewood Avenue\n\n6216 Saint Marie Street\n\n711 North Atlantic Avenue\n\nAbout East Liberty\n\nAbout ELDI\n\nDonate to ELDI\n\nELDI Board\n\nELDI Staff\n\nInternships in East Liberty\n\nContact ELDI\n\nEast Liberty Happenings\n\nELDI Spin-Offs\n\nHome\n\nNews &#038; Events\n\nVillage Collaborative RCO\n\nWhat We Do\n\nELDI Plans &#038; Studies\n\nWhere to Live\n\nAffordable Housing\n\nHouses for Sale\n\nNews &#038; Events\n\n[Spotlight] Building from the strong edges: A new seven-home development takes shape in Larimer\n\nApril 27, 2026\n\n[News] Presenting our Larimer Affordable Homeownership Project to the Larimer Consensus Group\n\nMarch 13, 2026\n\n[Meeting] Development Meeting for a New Apartment Complex on Penn Ave\n\nJanuary 16, 2026\n\n[News] ELDI awarded $1.2 million Federal Home Loan Bank of Pittsburgh grant to support affordable homeownership in Larimer\n\nDecember 23, 2025\n\n[Spotlight] Celebrating the completion of our New Markets Tax Credit Homeownership Project\n\nDecember 19, 2025\n\n[Spotlight] 2025 In Review\n\nDecember 15, 2025\n\n[Spotlight] Was East Liberty gentrified? Understanding East Liberty’s transformation\n\nDecember 12, 2025\n\n[Spotlight] A Day in the Life: Jeanine McCreary, Property Manager at Dad’s House\n\nNovember 24, 2025\n\n[Spotlight] What came before AI Avenue\n\nOctober 30, 2025\n\n[Resources] As SNAP benefits end November 1st, get help or give here\n\nOctober 29, 2025\n\n[Spotlight] Meet ELDI&#8217;s new Board Vice President Chad Restori\n\nOctober 20, 2025\n\n[Spotlight] Rural Street Renewal: Expanding affordable and attainable homeownership with Main + Elm\n\nOctober 10, 2025\n\n1\n\n2\n\n3\n\n&hellip;\n\n124\n\n&rarr;\n\nArchives\n\nArchives\n\nSelect Month\n\nApril 2026\n\nMarch 2026\n\nJanuary 2026\n\nDecember 2025\n\nNovember 2025\n\nOctober 2025\n\nAugust 2025",
-    "error": null,
-    "dates_found": [
-      "April 27, 2026",
-      "March 13, 2026",
-      "January 16, 2026",
-      "December 23, 2025",
-      "December 19, 2025",
-      "December 15, 2025",
-      "December 12, 2025",
-      "November 24, 2025",
-      "October 30, 2025",
-      "October 29, 2025",
-      "October 20, 2025",
-      "October 10, 2025"
-    ]
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "Engagement Meeting for the 2027 Budget",
+    "start": "2026-05-26T22:00:00.001Z",
+    "end": "2026-05-26T23:00:00.001Z",
+    "url": "https://www.opdc.org/events/2026/5/26/engagement-meeting-for-the-2027-budget-74yzj",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Duquesne University",
+    "start": "2026-05-27T10:00:00-04:00",
+    "end": "2026-05-27T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-duquesne-university-3/2026-05-27/",
+    "location": null,
+    "description": "The Duquesne University Small Business Development Center (SBDC) –  We offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs an",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 6,
+    "orgName": "Bloomfield Development Corporation",
+    "neighborhoods": [
+      "Bloomfield"
+    ],
+    "name": "May Board Meeting with City Controller Rachael Heisler",
+    "start": "2026-05-27T18:30:00-04:00",
+    "end": "2026-05-27T20:30:00-04:00",
+    "url": "https://bloomfieldpgh.org/event/may-board-meeting-with-city-controller-rachael-heisler/",
+    "location": "4618 Friendship Ave, Pittsburgh",
+    "description": "@ The May meeting of the BDC Board of Directors. Review the Agenda here! These meetings are open to the public and always include a guest presentation or activity in the first hour. Snacks will be pro",
+    "source": "rco-tribe"
+  },
+  {
+    "orgId": 35,
+    "orgName": "Oakland Planning and Development Corporation",
+    "neighborhoods": [
+      "Central Oakland",
+      "North Oakland"
+    ],
+    "name": "Engagement Meeting for the 2027 Budget",
+    "start": "2026-05-28T22:00:00.135Z",
+    "end": "2026-05-28T23:00:00.135Z",
+    "url": "https://www.opdc.org/events/2026/5/28/engagement-meeting-for-the-2027-budget-n3fse",
+    "location": null,
+    "description": null,
+    "source": "rco-squarespace"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
+    "start": "2026-06-11T10:00:00-04:00",
+    "end": "2026-06-11T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-the-university-of-pittsburgh-institute-for-entreprenurial-excellence/2026-06-11/",
+    "location": null,
+    "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for con",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Chatham University Women's Business Center",
+    "start": "2026-06-18T10:00:00-04:00",
+    "end": "2026-06-18T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-chatham-university/2026-06-18/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
+    "start": "2026-06-18T10:00:00-04:00",
+    "end": "2026-06-18T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/monthly-small-business-hours-with-the-allegheny-county-department-of-equity-and-inclusion/2026-06-18/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Duquesne University",
+    "start": "2026-06-24T10:00:00-04:00",
+    "end": "2026-06-24T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-duquesne-university-3/2026-06-24/",
+    "location": null,
+    "description": "The Duquesne University Small Business Development Center (SBDC) –  We offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs an",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
+    "start": "2026-07-09T10:00:00-04:00",
+    "end": "2026-07-09T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-the-university-of-pittsburgh-institute-for-entreprenurial-excellence/2026-07-09/",
+    "location": null,
+    "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for con",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Chatham University Women's Business Center",
+    "start": "2026-07-16T10:00:00-04:00",
+    "end": "2026-07-16T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-chatham-university/2026-07-16/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
+    "start": "2026-07-16T10:00:00-04:00",
+    "end": "2026-07-16T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/monthly-small-business-hours-with-the-allegheny-county-department-of-equity-and-inclusion/2026-07-16/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Duquesne University",
+    "start": "2026-07-22T10:00:00-04:00",
+    "end": "2026-07-22T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-duquesne-university-3/2026-07-22/",
+    "location": null,
+    "description": "The Duquesne University Small Business Development Center (SBDC) –  We offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs an",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with the University of Pittsburgh Institute for Entreprenurial Excellence",
+    "start": "2026-08-13T10:00:00-04:00",
+    "end": "2026-08-13T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-the-university-of-pittsburgh-institute-for-entreprenurial-excellence/2026-08-13/",
+    "location": null,
+    "description": "The University of Pittsburgh Small Business Development Center offers office hours to individuals who would like to inquire about the process of registering a business, the resources available for con",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Chatham University Women's Business Center",
+    "start": "2026-08-20T10:00:00-04:00",
+    "end": "2026-08-20T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-chatham-university/2026-08-20/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Monthly Small Business Hours with the Allegheny County Department of Equity and Inclusion",
+    "start": "2026-08-20T10:00:00-04:00",
+    "end": "2026-08-20T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/monthly-small-business-hours-with-the-allegheny-county-department-of-equity-and-inclusion/2026-08-20/",
+    "location": null,
+    "description": "The Hill CDC BizU provides technical support to entrepreneurs to help with business planning and support. Technical experts from Chatham University’s Women’s Business Center, University of Pittsburgh ",
+    "source": "rco-ical"
+  },
+  {
+    "orgId": 21,
+    "orgName": "Hill Community Development Corporation",
+    "neighborhoods": [
+      "Middle Hill",
+      "Crawford-Roberts",
+      "Upper Hill",
+      "Terrace Village",
+      "Bedford Dwellings"
+    ],
+    "name": "Small Business Hours with Duquesne University",
+    "start": "2026-08-26T10:00:00-04:00",
+    "end": "2026-08-26T14:00:00-04:00",
+    "url": "https://www.hilldistrict.org/event/small-business-hours-with-duquesne-university-3/2026-08-26/",
+    "location": null,
+    "description": "The Duquesne University Small Business Development Center (SBDC) –  We offer no-cost, confidential consulting services and educational programs in southwestern Pennsylvania to empower entrepreneurs an",
+    "source": "rco-ical"
   }
 ]

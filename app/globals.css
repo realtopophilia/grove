@@ -322,6 +322,66 @@ footer a:hover { text-decoration: underline; }
   border-radius: var(--radius);
 }
 
+/* Upcoming events */
+.event-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.event-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.875rem 1.25rem;
+}
+
+.event-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.event-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.event-org {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.event-name {
+  font-size: 0.925rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.event-name a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.event-name a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+.event-location {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
 @media (max-width: 600px) {
   .stat-row { gap: 1.25rem; flex-wrap: wrap; }
   .hero h1 { font-size: 1.6rem; }

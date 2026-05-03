@@ -1,4 +1,4 @@
-name: Refresh event data
+name: Refresh RCO event data
 
 on:
   schedule:
@@ -26,26 +26,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch CLP events
-        run: node scripts/fetch-clp-events.js
-
-      - name: Fetch Parks Conservancy events
-        run: node scripts/fetch-parks-events.js
-
-      - name: Fetch Meetup events
-        run: node scripts/fetch-meetup-events.js
-
-      - name: Fetch Eventbrite events + enrich times
-        run: node scripts/fetch-eventbrite-events.js && node scripts/enrich-eventbrite-times.js
+      - name: Fetch RCO org events
+        run: node scripts/fetch-rco-events.js
 
       - name: Commit updated data if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/clp-events.json data/parks-events.json data/meetup-events.json data/eventbrite-events.json
+          git add data/rco-events.json
           if git diff --cached --quiet; then
             echo "No data changes — skipping commit"
           else
-            git commit -m "chore: refresh event data [$(date -u '+%Y-%m-%d')]"
+            git commit -m "chore: refresh RCO event data [$(date -u '+%Y-%m-%d')]"
             git push
           fi

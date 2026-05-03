@@ -2,6 +2,31 @@ import { getNeighborhoodIndex, getNeighborhoodBySlug, getNextMeeting, formatNext
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
+function EventCard({ event }) {
+  const start = event.start ? new Date(event.start) : null
+  const dateStr = start
+    ? start.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
+    : null
+  const timeStr = start && !event.start.endsWith('T00:00:00.000Z')
+    ? start.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })
+    : null
+
+  return (
+    <li className="event-card">
+      <div className="event-header">
+        {dateStr && <span className="event-date">{dateStr}{timeStr ? ` · ${timeStr}` : ''}</span>}
+        <span className="event-org">{event.orgName}</span>
+      </div>
+      <div className="event-name">
+        {event.url
+          ? <a href={event.url} target="_blank" rel="noopener noreferrer">{event.name}</a>
+          : event.name}
+      </div>
+      {event.location && <div className="event-location">📍 {event.location}</div>}
+    </li>
+  )
+}
+
 export async function generateStaticParams() {
   const neighborhoods = getNeighborhoodIndex()
   return neighborhoods.map(n => ({ slug: n.slug }))
@@ -101,6 +126,16 @@ export default async function NeighborhoodPage({ params }) {
           No organizations found for {n.name} yet.
           Coverage for this neighborhood is on our roadmap.
         </div>
+      )}
+
+      {/* Upcoming events */}
+      {n.events && n.events.length > 0 && (
+        <section style={{ marginBottom: '2.5rem' }}>
+          <p className="section-heading">Upcoming events</p>
+          <ul className="event-list">
+            {n.events.slice(0, 12).map((e, i) => <EventCard key={i} event={e} />)}
+          </ul>
+        </section>
       )}
     </>
   )
