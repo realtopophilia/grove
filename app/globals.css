@@ -133,6 +133,78 @@ footer a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--border);
 }
 
+/* My neighborhood banner */
+.my-neighborhood {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--green-pale);
+  border: 1px solid #b7dac8;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.my-neighborhood-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--green);
+}
+
+.my-neighborhood-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.my-neighborhood-link:hover { text-decoration: underline; }
+
+.my-neighborhood-clear {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.my-neighborhood-clear:hover { color: var(--text); }
+
+/* Search */
+.search-wrap {
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.925rem;
+  font-family: var(--font);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.search-input:focus {
+  border-color: var(--green-light);
+}
+
+.search-empty {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
 /* Neighborhood list */
 .neighborhood-grid {
   display: grid;
@@ -165,6 +237,24 @@ footer a:hover { text-decoration: underline; }
 .neighborhood-card .count {
   font-size: 0.8rem;
   color: var(--muted);
+}
+
+.neighborhood-card--saved {
+  border-color: var(--green);
+  border-left-width: 3px;
+}
+
+.card-next-meeting {
+  font-size: 0.775rem;
+  color: var(--green);
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+.card-events {
+  font-size: 0.775rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
 }
 
 /* Coverage page */

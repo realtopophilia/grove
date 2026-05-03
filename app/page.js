@@ -1,11 +1,43 @@
-import { getNeighborhoodIndex } from '../lib/data'
-import Link from 'next/link'
+import { getNeighborhoodIndex, getRcoEvents, getNextMeeting, formatNextMeeting } from '../lib/data'
+import NeighborhoodGrid from './components/NeighborhoodGrid'
 
 export default function Home() {
   const neighborhoods = getNeighborhoodIndex()
+  const events        = getRcoEvents()
 
+  // Unique counts
   const totalRcos = new Set(neighborhoods.flatMap(n => n.rcos.map(r => r.id))).size
   const totalOrgs = new Set(neighborhoods.flatMap(n => n.orgs.map(o => o.id))).size
+
+  // Build event lookup: orgId → count
+  const eventsByOrg = {}
+  for (const e of events) {
+    eventsByOrg[e.orgId] = (eventsByOrg[e.orgId] || 0) + 1
+  }
+
+  // Enrich each neighborhood for the grid (plain serializable objects)
+  const enriched = neighborhoods.map(n => {
+    // Soonest next meeting across all RCOs in this neighborhood
+    const meetings = n.rcos
+      .filter(r => r.meeting_recurrence)
+      .map(r => getNextMeeting(r.meeting_recurrence))
+      .filter(Boolean)
+      .sort((a, b) => a.date - b.date)
+    const nextMeeting = meetings[0] ? formatNextMeeting(meetings[0]) : null
+
+    // Upcoming event count for orgs in this neighborhood
+    const orgIds = [...n.rcos.map(r => r.id), ...n.orgs.map(o => o.id)]
+    const eventCount = orgIds.reduce((sum, id) => sum + (eventsByOrg[id] || 0), 0)
+
+    return {
+      name:       n.name,
+      slug:       n.slug,
+      rcoCount:   n.rcos.length,
+      orgCount:   n.orgs.length,
+      nextMeeting,
+      eventCount,
+    }
+  })
 
   return (
     <>
@@ -32,23 +64,7 @@ export default function Home() {
       </div>
 
       <p className="section-heading">Neighborhoods</p>
-      <div className="neighborhood-grid">
-        {neighborhoods.map(n => {
-          const rcoCount = n.rcos.length
-          const orgCount = n.orgs.length
-          return (
-            <Link href={`/neighborhood/${n.slug}`} key={n.slug} className="neighborhood-card">
-              <div className="name">{n.name}</div>
-              <div className="count">
-                {[
-                  rcoCount > 0 && `${rcoCount} RCO${rcoCount !== 1 ? 's' : ''}`,
-                  orgCount > 0 && `${orgCount} org${orgCount !== 1 ? 's' : ''}`,
-                ].filter(Boolean).join(' · ')}
-              </div>
-            </Link>
-          )
-        })}
-      </div>
+      <NeighborhoodGrid neighborhoods={enriched} />
     </>
   )
 }
