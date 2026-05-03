@@ -12,7 +12,18 @@
     "notes": "",
     "meeting_schedule": "Second Monday of each month (except August and December)",
     "meeting_location": null,
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Monday",
+      "time": null,
+      "except_months": [
+        8,
+        12
+      ],
+      "only_months": null
+    }
   },
   {
     "id": 2,
@@ -27,7 +38,15 @@
     "notes": "",
     "meeting_schedule": "2nd Tuesday of the month at 7:30pm",
     "meeting_location": "Calvary United Methodist Church, 971 Beech Ave, Pittsburgh, PA 15233",
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Tuesday",
+      "time": "7:30pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 3,
@@ -117,7 +136,21 @@
     "notes": "",
     "meeting_schedule": "Board: 1st Thursday monthly (except July/December). General: 2nd Thursday of January, March, May, September, and November at 7pm",
     "meeting_location": "Board: All Saints Church. General: Pittsburgh Morrow School, 1611 Davis Ave, Pittsburgh, PA 15212",
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "bimonthly",
+      "week": 2,
+      "day": "Thursday",
+      "time": "7:00pm",
+      "except_months": [],
+      "only_months": [
+        1,
+        3,
+        5,
+        9,
+        11
+      ]
+    }
   },
   {
     "id": 9,
@@ -132,7 +165,22 @@
     "notes": "",
     "meeting_schedule": "2nd Monday of each month (January, March, May, July, September, November) at 7pm",
     "meeting_location": "Brookline Teen Outreach, 520 Brookline Blvd, Pittsburgh, PA 15226",
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "bimonthly",
+      "week": 2,
+      "day": "Monday",
+      "time": "7:00pm",
+      "except_months": [],
+      "only_months": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ]
+    }
   },
   {
     "id": 10,
@@ -177,7 +225,15 @@
     "notes": "Expiration 2025 — may need renewal",
     "meeting_schedule": "Second Tuesday of each month",
     "meeting_location": null,
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Tuesday",
+      "time": null,
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 13,
@@ -237,7 +293,15 @@
     "notes": "",
     "meeting_schedule": "4th Tuesday of the month",
     "meeting_location": "The Pittsburgh Project, 2801 N. Charles St, Pittsburgh, PA 15214",
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 4,
+      "day": "Tuesday",
+      "time": null,
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 17,
@@ -297,7 +361,18 @@
     "notes": "Expiration 2025 — may need renewal",
     "meeting_schedule": "3rd Thursday of each month at 7pm (not July or December)",
     "meeting_location": "St. Andrews Community Hall, 5801 Hampton St, Pittsburgh, PA 15206 or via Zoom",
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 3,
+      "day": "Thursday",
+      "time": "7:00pm",
+      "except_months": [
+        7,
+        12
+      ],
+      "only_months": null
+    }
   },
   {
     "id": 21,
@@ -357,7 +432,15 @@
     "notes": "",
     "meeting_schedule": "Rotating facilities of Collaborative Partners — check website calendar, 4th Thursday of the month at 6pm",
     "meeting_location": null,
-    "meeting_notes": null
+    "meeting_notes": null,
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 4,
+      "day": "Thursday",
+      "time": "6:00pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 25,
@@ -402,7 +485,15 @@
     "notes": "Facebook only — no standalone website",
     "meeting_schedule": "We have Zoom meetings the second Wednesday each month from 6:00 PM - 7:30 PM. Resuming in-person at 1551 Lincoln Ave in Fall 2023.",
     "meeting_location": "Zoom / 1551 Lincoln Ave, Pittsburgh, PA 15206",
-    "meeting_notes": "Facebook only for web presence"
+    "meeting_notes": "Facebook only for web presence",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Wednesday",
+      "time": "6:00pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 28,
@@ -492,7 +583,15 @@
     "notes": "Expiration 2025 — may need renewal",
     "meeting_schedule": "Second Wednesday of the month at 7pm. In person meetings: Craft Professional Building at 3240 Caroll Place; otherwise meetings are held virtually via Zoom.",
     "meeting_location": "3240 Caroll Place, Pittsburgh, PA / Zoom",
-    "meeting_notes": null
+    "meeting_notes": null,
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Wednesday",
+      "time": "7:00pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 34,
@@ -537,7 +636,15 @@
     "notes": "",
     "meeting_schedule": "4th Tuesday of the Month - The Pittsburgh Project 2801 N. Charles Street 15214. During the pandemic, meetings are held virtually on zoom",
     "meeting_location": "2801 N. Charles Street, Pittsburgh, PA 15214 / Zoom",
-    "meeting_notes": ""
+    "meeting_notes": "",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 4,
+      "day": "Tuesday",
+      "time": null,
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 37,
@@ -597,7 +704,15 @@
     "notes": "",
     "meeting_schedule": "1st Tuesday of each month at 6:30pm. West Penn Rec Center (450 30th St, Pittsburgh, PA 15219) and Zoom",
     "meeting_location": "450 30th St, Pittsburgh, PA 15219 / Zoom",
-    "meeting_notes": null
+    "meeting_notes": null,
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 1,
+      "day": "Tuesday",
+      "time": "6:30pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 41,
@@ -627,7 +742,15 @@
     "notes": "Expiration 2025 — may need renewal",
     "meeting_schedule": "Board meetings held second Monday of each month and general meetings held last Monday in March and September; all meetings via Zoom.",
     "meeting_location": "Zoom",
-    "meeting_notes": null
+    "meeting_notes": null,
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Monday",
+      "time": null,
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": 43,
@@ -672,7 +795,18 @@
     "notes": "Expiration 2025 — may need renewal",
     "meeting_schedule": "Jewish Community Center, 5738 Forbes Avenue, Pittsburgh PA 15217 — 6:30pm monthly",
     "meeting_location": "5738 Forbes Ave, Pittsburgh, PA 15217",
-    "meeting_notes": "Active WordPress site with events plugin"
+    "meeting_notes": "Active WordPress site with events plugin",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 3,
+      "day": "Tuesday",
+      "time": "6:30pm",
+      "except_months": [
+        7,
+        12
+      ],
+      "only_months": null
+    }
   },
   {
     "id": 46,

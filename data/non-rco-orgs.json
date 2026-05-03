@@ -310,7 +310,15 @@
     "is_rco": false,
     "meeting_schedule": "2nd Tuesday of the month at 7pm",
     "meeting_location": "Lincoln Place Presbyterian Church, 1202 Muldowney Ave, Pittsburgh, PA 15207",
-    "notes": "Serves Lincoln Place, Hays, New Homestead, and Gates Manor. Active and appears well-organized."
+    "notes": "Serves Lincoln Place, Hays, New Homestead, and Gates Manor. Active and appears well-organized.",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Tuesday",
+      "time": "7:00pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": "nrco-20",
@@ -328,7 +336,15 @@
     "is_rco": false,
     "meeting_schedule": "2nd Tuesday of the month at 6pm",
     "meeting_location": "Frazier Field House, 3716 Frazier St, Pittsburgh, PA 15213",
-    "notes": "Resident-run group for South Oakland. Open public meetings."
+    "notes": "Resident-run group for South Oakland. Open public meetings.",
+    "meeting_recurrence": {
+      "freq": "monthly",
+      "week": 2,
+      "day": "Tuesday",
+      "time": "6:00pm",
+      "except_months": [],
+      "only_months": null
+    }
   },
   {
     "id": "nrco-21",

@@ -267,6 +267,31 @@ footer a:hover { text-decoration: underline; }
   margin-top: 0.25rem;
 }
 
+.org-next-meeting {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--green-pale);
+  border-radius: 4px;
+  font-size: 0.825rem;
+}
+
+.org-next-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.org-next-date {
+  font-weight: 600;
+  color: var(--text);
+}
+
 .org-schedule {
   font-size: 0.875rem;
   color: var(--text);

@@ -1,0 +1,479 @@
+[
+  {
+    "id": 1,
+    "name": "Allegheny City Central Association",
+    "website": "https://www.alleghenycitycentral.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 2,
+    "name": "Allegheny West Civic Council",
+    "website": "https://alleghenywest.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 3,
+    "name": "Allentown Community Development Corporation",
+    "website": "https://www.allentowncdc.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 4,
+    "name": "Beltzhoover Consensus Group",
+    "website": "https://www.bcg15210.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 5,
+    "name": "Bloomfield Alliance",
+    "website": "https://bloomfieldalliance.org",
+    "source": "rco",
+    "type": "squarespace",
+    "eventsPath": "/events",
+    "note": "Squarespace site with /events path"
+  },
+  {
+    "id": 6,
+    "name": "Bloomfield Development Corporation",
+    "website": "https://bloomfieldpgh.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://bloomfieldpgh.org/events/?ical=1"
+  },
+  {
+    "id": 7,
+    "name": "Bloomfield-Garfield Corporation",
+    "website": "https://bloomfield-garfield.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://bloomfield-garfield.org/events-calendar/?ical=1"
+  },
+  {
+    "id": 8,
+    "name": "Brighton Heights Citizens Federation",
+    "website": "https://www.brightonheights.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 9,
+    "name": "Brookline Together",
+    "website": "https://brooklinetogether.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 10,
+    "name": "Carrick Community Council",
+    "website": "https://www.carrickcommunitycouncil.com",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 11,
+    "name": "Charles Street Area Corporation",
+    "website": "https://csacpa.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://csacpa.org/events/?ical=1"
+  },
+  {
+    "id": 12,
+    "name": "Community Alliance of Spring Garden–East Deutschtown",
+    "website": "https://www.casged.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 13,
+    "name": "Downtown Neighbors Alliance",
+    "website": "https://pittsburghdna.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "homepage 401"
+  },
+  {
+    "id": 14,
+    "name": "East Allegheny Community Council",
+    "website": "https://deutschtown.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://deutschtown.org/events/?ical=1"
+  },
+  {
+    "id": 15,
+    "name": "East Hills Consensus Group",
+    "website": "https://www.easthillsconsensusgroup.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://www.easthillsconsensusgroup.org/events/?ical=1"
+  },
+  {
+    "id": 16,
+    "name": "Fineview Citizens Council",
+    "website": "https://fineviewpgh.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 17,
+    "name": "Friendship Community Group",
+    "website": "https://www.friendship-pgh.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 18,
+    "name": "Greenfield Community Association",
+    "website": "https://gcapgh.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "homepage unreachable"
+  },
+  {
+    "id": 19,
+    "name": "Hazelwood Initiative",
+    "website": "https://www.hazelwoodinitiative.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 20,
+    "name": "Highland Park Community Council",
+    "website": "https://hpccpgh.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 21,
+    "name": "Hill Community Development Corporation",
+    "website": "https://www.hilldistrict.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://www.hilldistrict.org/events/?ical=1"
+  },
+  {
+    "id": 22,
+    "name": "Hill District Collaborative",
+    "website": "https://hillvoices.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 23,
+    "name": "Hill District Consensus Group",
+    "website": "https://www.hilldistrictconsensusgroup.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 24,
+    "name": "Homewood Community Development Collaborative",
+    "website": "https://homewood-collaborative.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 25,
+    "name": "Jasmine Nyree Homes, Inc",
+    "website": "https://jasminenyreecampus.com",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 26,
+    "name": "Larimer Consensus Group",
+    "website": "https://www.larimerconsensusgroup.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 29,
+    "name": "Manchester Neighbors",
+    "website": "https://www.manchesterneighbors.com",
+    "source": "rco",
+    "type": "none",
+    "reason": "homepage 404"
+  },
+  {
+    "id": 30,
+    "name": "Marshall-Shadeland Community Group",
+    "website": "https://marshall-shadeland.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 31,
+    "name": "Mount Washington Community Development Corporation",
+    "website": "https://mwcdc.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 33,
+    "name": "Oakcliffe Community Organization of South Oakland",
+    "website": "https://oakcliffe.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 34,
+    "name": "Oakland Business Improvement District",
+    "website": "https://oaklandpittsburgh.com",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 35,
+    "name": "Oakland Planning and Development Corporation",
+    "website": "https://www.opdc.org",
+    "source": "rco",
+    "type": "squarespace",
+    "eventsPath": "/events",
+    "note": "Squarespace site with /events path"
+  },
+  {
+    "id": 36,
+    "name": "Perry Hilltop Citizens Council",
+    "website": "https://www.ourfuturehilltop.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 37,
+    "name": "Pittsburgh Downtown Partnership",
+    "website": "https://downtownpittsburgh.com",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 38,
+    "name": "Point Breeze North Development Corporation",
+    "website": "https://www.pointbreezenorth.com",
+    "source": "rco",
+    "type": "squarespace",
+    "eventsPath": "/events",
+    "note": "Squarespace site with /events path"
+  },
+  {
+    "id": 39,
+    "name": "Point Breeze Organization",
+    "website": "https://www.pointbreezepgh.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 40,
+    "name": "Polish Hill Civic Association of Pittsburgh",
+    "website": "https://www.polishhillcivicassociation.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 42,
+    "name": "South Side Community Council",
+    "website": "https://southsidecommunitycouncil.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 43,
+    "name": "South Side Slopes Neighborhood Association",
+    "website": "https://www.southsideslopes.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://www.southsideslopes.org/events/?ical=1"
+  },
+  {
+    "id": 44,
+    "name": "Spring Hill Civic League",
+    "website": "https://shcl.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 45,
+    "name": "Squirrel Hill Urban Coalition",
+    "website": "https://shuc.org",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": 46,
+    "name": "Swisshelm Forward",
+    "website": "https://www.swisshelmforward.org",
+    "source": "rco",
+    "type": "wix",
+    "note": "Wix site — dynamic content not scrapable"
+  },
+  {
+    "id": 47,
+    "name": "Uptown Partners of Pittsburgh",
+    "website": "https://www.uptownpartners.org",
+    "source": "rco",
+    "type": "ical",
+    "url": "https://www.uptownpartners.org/events/?ical=1"
+  },
+  {
+    "id": 48,
+    "name": "Village Collaborative of East Liberty",
+    "website": "https://www.eastliberty.org/the-village-collaborative/",
+    "source": "rco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-01",
+    "name": "Lawrenceville United",
+    "website": "https://www.lunited.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-02",
+    "name": "Lawrenceville Corporation",
+    "website": "https://lvpgh.com",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-03",
+    "name": "Morningside Area Community Council",
+    "website": "https://morningsidepgh.org",
+    "source": "nrco",
+    "type": "squarespace",
+    "eventsPath": "/events1/yard-sale-2026",
+    "note": "Squarespace site with /events path"
+  },
+  {
+    "id": "nrco-04",
+    "name": "Shadyside Action Coalition",
+    "website": "https://sca2022.com",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-05",
+    "name": "Stanton Heights Neighborhood Association",
+    "website": "https://www.stantonheights.org",
+    "source": "nrco",
+    "type": "squarespace",
+    "eventsPath": "/events",
+    "note": "Squarespace site with /events path"
+  },
+  {
+    "id": "nrco-06",
+    "name": "Strip District Neighbors",
+    "website": "https://www.stripdistrictneighbors.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-07",
+    "name": "Crafton Heights Community Organization (CHCO)",
+    "website": "https://chco.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-08",
+    "name": "Central Northside Neighborhood Council (CNNC)",
+    "website": "https://www.cnnc.us",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-09",
+    "name": "Regent Square Civic Association",
+    "website": "https://regentsquare.net",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-10",
+    "name": "Sheraden",
+    "website": "https://sheradenpgh.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-16",
+    "name": "Beechview Revitalization Advisory Group (BRAG)",
+    "website": "https://www.beechviewing.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "homepage unreachable"
+  },
+  {
+    "id": "nrco-18",
+    "name": "Overbrook West Neighbors",
+    "website": "https://www.overbrookwestneighbors.com",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-19",
+    "name": "31st Ward Community Action Group",
+    "website": "https://31stwardcag.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-20",
+    "name": "South Oakland Neighborhood Group (SONG)",
+    "website": "http://southoaklandpgh.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  },
+  {
+    "id": "nrco-21",
+    "name": "West End-Elliott Citizens Council (WEECC)",
+    "website": "http://www.weecc.org",
+    "source": "nrco",
+    "type": "none",
+    "reason": "no machine-readable events found"
+  }
+]

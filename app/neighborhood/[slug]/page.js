@@ -1,4 +1,4 @@
-import { getNeighborhoodIndex, getNeighborhoodBySlug } from '../../../lib/data'
+import { getNeighborhoodIndex, getNeighborhoodBySlug, getNextMeeting, formatNextMeeting } from '../../../lib/data'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -14,10 +14,62 @@ export async function generateMetadata({ params }) {
   return { title: `${n.name} — Grove` }
 }
 
+function OrgCard({ org, isRco }) {
+  const href = org.website || org.facebook || null
+  const nextMeeting = org.meeting_recurrence
+    ? formatNextMeeting(getNextMeeting(org.meeting_recurrence))
+    : null
+
+  return (
+    <li className="org-card">
+      <div className="org-name">
+        {href
+          ? <a href={href} target="_blank" rel="noopener noreferrer">{org.name}</a>
+          : org.name}
+      </div>
+
+      {!isRco && org.org_type && (
+        <div className="org-type">{org.org_type}</div>
+      )}
+
+      {nextMeeting && (
+        <div className="org-next-meeting">
+          <span className="org-next-label">Next meeting</span>
+          <span className="org-next-date">{nextMeeting}</span>
+        </div>
+      )}
+
+      {org.meeting_schedule && (
+        <div className="org-schedule">
+          <span className="org-schedule-label">📅</span>
+          <span>{org.meeting_schedule}</span>
+        </div>
+      )}
+
+      {org.meeting_location && (
+        <div className="org-detail">
+          <span>📍</span>
+          <span>{org.meeting_location}</span>
+        </div>
+      )}
+    </li>
+  )
+}
+
 export default async function NeighborhoodPage({ params }) {
   const { slug } = await params
   const n = getNeighborhoodBySlug(slug)
   if (!n) notFound()
+
+  // Sort RCOs: ones with a computable next meeting first
+  const sortedRcos = [...n.rcos].sort((a, b) => {
+    const am = a.meeting_recurrence ? getNextMeeting(a.meeting_recurrence) : null
+    const bm = b.meeting_recurrence ? getNextMeeting(b.meeting_recurrence) : null
+    if (am && bm) return am.date - bm.date
+    if (am) return -1
+    if (bm) return 1
+    return 0
+  })
 
   return (
     <>
@@ -25,29 +77,11 @@ export default async function NeighborhoodPage({ params }) {
       <h1 className="page-title">{n.name}</h1>
 
       {/* RCOs */}
-      {n.rcos.length > 0 && (
+      {sortedRcos.length > 0 && (
         <section style={{ marginBottom: '2.5rem' }}>
           <p className="section-heading">Registered community organizations</p>
           <ul className="org-list">
-            {n.rcos.map((rco, i) => (
-              <li key={i} className="org-card">
-                <div className="org-name">
-                  {rco.website
-                    ? <a href={rco.website} target="_blank" rel="noopener noreferrer">{rco.name}</a>
-                    : rco.name}
-                </div>
-                {rco.meeting_schedule && (
-                  <div className="org-schedule">
-                    <span className="org-schedule-icon">📅</span> {rco.meeting_schedule}
-                  </div>
-                )}
-                {rco.meeting_location && (
-                  <div className="org-detail">
-                    <span className="org-detail-icon">📍</span> {rco.meeting_location}
-                  </div>
-                )}
-              </li>
-            ))}
+            {sortedRcos.map((rco, i) => <OrgCard key={i} org={rco} isRco={true} />)}
           </ul>
         </section>
       )}
@@ -57,18 +91,7 @@ export default async function NeighborhoodPage({ params }) {
         <section style={{ marginBottom: '2.5rem' }}>
           <p className="section-heading">Community organizations</p>
           <ul className="org-list">
-            {n.orgs.map((org, i) => (
-              <li key={i} className="org-card">
-                <div className="org-name">
-                  {org.website
-                    ? <a href={org.website} target="_blank" rel="noopener noreferrer">{org.name}</a>
-                    : org.facebook
-                    ? <a href={org.facebook} target="_blank" rel="noopener noreferrer">{org.name}</a>
-                    : org.name}
-                </div>
-                {org.org_type && <div className="org-type">{org.org_type}</div>}
-              </li>
-            ))}
+            {n.orgs.map((org, i) => <OrgCard key={i} org={org} isRco={false} />)}
           </ul>
         </section>
       )}
