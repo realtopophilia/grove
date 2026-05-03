@@ -3,7 +3,8 @@ node_modules/
 out/
 .env
 .env.local
-data/.tmp_*.txt
+data/.tmp_*
+.claude/
 data/clp-events.ical
 data/parks-events.ical
 

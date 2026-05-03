@@ -32,24 +32,18 @@ const ALL_NEIGHBORHOODS = [
 export default function CoveragePage() {
   const index = getNeighborhoodIndex()
 
-  // Build a lookup by slug for fuzzy matching
   const bySlug = {}
   for (const n of index) {
     bySlug[n.slug] = n
   }
 
-  // For each official neighborhood, find matching data if any
   const rows = ALL_NEIGHBORHOODS.map(name => {
     const slug = slugify(name)
     const data = bySlug[slug] || null
-    const eventCount = data
-      ? (data.clpEvents?.length || 0) + (data.parksEvents?.length || 0) +
-        (data.ebEvents?.length || 0) + (data.meetupEvents?.length || 0)
-      : 0
-    const orgCount = data ? (data.rcos?.length || 0) + (data.orgs?.length || 0) : 0
-    const hasCoverage = eventCount > 0 || orgCount > 0
-
-    return { name, slug, hasCoverage, eventCount, orgCount, data }
+    const rcoCount = data?.rcos?.length || 0
+    const orgCount = data?.orgs?.length || 0
+    const hasCoverage = rcoCount > 0 || orgCount > 0
+    return { name, slug, hasCoverage, rcoCount, orgCount }
   })
 
   const covered = rows.filter(r => r.hasCoverage).length
@@ -67,19 +61,19 @@ export default function CoveragePage() {
       </p>
 
       <p style={{ color: 'var(--muted)', marginBottom: '2rem', fontSize: '0.9rem' }}>
-        Sources: Carnegie Library events, Pittsburgh Parks Conservancy, Eventbrite community events,
-        Meetup, registered community organizations (RCOs), and other community orgs.
+        Data comes from the City of Pittsburgh&rsquo;s registered community organization (RCO) dataset
+        and supplemental community org research.
       </p>
 
       <div className="coverage-grid">
-        {rows.map(({ name, slug, hasCoverage, eventCount, orgCount }) => (
+        {rows.map(({ name, slug, hasCoverage, rcoCount, orgCount }) => (
           hasCoverage
             ? (
               <Link href={`/neighborhood/${slug}`} key={name} className="coverage-card coverage-card--has">
                 <div className="coverage-name">{name}</div>
                 <div className="coverage-counts">
                   {[
-                    eventCount > 0 && `${eventCount} event${eventCount !== 1 ? 's' : ''}`,
+                    rcoCount > 0 && `${rcoCount} RCO${rcoCount !== 1 ? 's' : ''}`,
                     orgCount > 0 && `${orgCount} org${orgCount !== 1 ? 's' : ''}`,
                   ].filter(Boolean).join(' · ')}
                 </div>
