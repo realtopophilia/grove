@@ -2,27 +2,40 @@ import { getNeighborhoodIndex, getNeighborhoodBySlug, getNextMeeting, formatNext
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
+const TZ = 'America/New_York'
+
 function EventCard({ event }) {
   const start = event.start ? new Date(event.start) : null
-  const dateStr = start
-    ? start.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
-    : null
-  const timeStr = start && !event.start.endsWith('T00:00:00.000Z')
-    ? start.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })
+  const isAllDay = event.start?.endsWith('T00:00:00.000Z')
+
+  const dayOfWeek = start?.toLocaleDateString('en-US', { weekday: 'short', timeZone: TZ })
+  const month     = start?.toLocaleDateString('en-US', { month: 'short', timeZone: TZ })
+  const dayNum    = start?.toLocaleDateString('en-US', { day: 'numeric', timeZone: TZ })
+  const timeStr   = start && !isAllDay
+    ? start.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: TZ })
     : null
 
   return (
     <li className="event-card">
-      <div className="event-header">
-        {dateStr && <span className="event-date">{dateStr}{timeStr ? ` · ${timeStr}` : ''}</span>}
-        <span className="event-org">{event.orgName}</span>
+      {start && (
+        <div className="event-date-block">
+          <span className="event-date-dow">{dayOfWeek}</span>
+          <span className="event-date-num">{dayNum}</span>
+          <span className="event-date-mon">{month}</span>
+        </div>
+      )}
+      <div className="event-body">
+        <div className="event-name">
+          {event.url
+            ? <a href={event.url} target="_blank" rel="noopener noreferrer">{event.name}</a>
+            : event.name}
+        </div>
+        <div className="event-meta">
+          <span className="event-org">{event.orgName}</span>
+          {timeStr && <span className="event-time">{timeStr}</span>}
+          {event.location && <span className="event-location">📍 {event.location}</span>}
+        </div>
       </div>
-      <div className="event-name">
-        {event.url
-          ? <a href={event.url} target="_blank" rel="noopener noreferrer">{event.name}</a>
-          : event.name}
-      </div>
-      {event.location && <div className="event-location">📍 {event.location}</div>}
     </li>
   )
 }
@@ -101,6 +114,16 @@ export default async function NeighborhoodPage({ params }) {
       <Link href="/" className="back-link">← All neighborhoods</Link>
       <h1 className="page-title">{n.name}</h1>
 
+      {/* Upcoming events — shown first */}
+      {n.events && n.events.length > 0 && (
+        <section style={{ marginBottom: '2.5rem' }}>
+          <p className="section-heading">Upcoming events</p>
+          <ul className="event-list">
+            {n.events.slice(0, 12).map((e, i) => <EventCard key={i} event={e} />)}
+          </ul>
+        </section>
+      )}
+
       {/* RCOs */}
       {sortedRcos.length > 0 && (
         <section style={{ marginBottom: '2.5rem' }}>
@@ -126,16 +149,6 @@ export default async function NeighborhoodPage({ params }) {
           No organizations found for {n.name} yet.
           Coverage for this neighborhood is on our roadmap.
         </div>
-      )}
-
-      {/* Upcoming events */}
-      {n.events && n.events.length > 0 && (
-        <section style={{ marginBottom: '2.5rem' }}>
-          <p className="section-heading">Upcoming events</p>
-          <ul className="event-list">
-            {n.events.slice(0, 12).map((e, i) => <EventCard key={i} event={e} />)}
-          </ul>
-        </section>
       )}
     </>
   )

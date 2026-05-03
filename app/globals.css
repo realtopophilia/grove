@@ -417,43 +417,66 @@ footer a:hover { text-decoration: underline; }
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.5rem;
   margin-bottom: 2rem;
 }
 
 .event-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.875rem 1.25rem;
+  padding: 0.75rem 1rem;
 }
 
-.event-header {
+.event-date-block {
   display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  margin-bottom: 0.3rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  background: var(--green);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 0.35rem 0.4rem;
+  line-height: 1.1;
+  text-align: center;
+  flex-shrink: 0;
 }
 
-.event-date {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--green);
-  white-space: nowrap;
-}
-
-.event-org {
-  font-size: 0.75rem;
-  color: var(--muted);
+.event-date-dow {
+  font-size: 0.6rem;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.event-date-num {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.event-date-mon {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.event-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .event-name {
   font-size: 0.925rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text);
+  margin-bottom: 0.25rem;
 }
 
 .event-name a {
@@ -466,10 +489,29 @@ footer a:hover { text-decoration: underline; }
   text-decoration: underline;
 }
 
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.event-org {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.event-time {
+  font-size: 0.8rem;
+  color: var(--green);
+  font-weight: 500;
+}
+
 .event-location {
   font-size: 0.8rem;
   color: var(--muted);
-  margin-top: 0.25rem;
 }
 
 @media (max-width: 600px) {
