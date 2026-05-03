@@ -2,7 +2,11 @@
   {
     "id": "nrco-01",
     "name": "Lawrenceville United",
-    "neighborhoods": ["Central Lawrenceville", "Lower Lawrenceville", "Upper Lawrenceville"],
+    "neighborhoods": [
+      "Central Lawrenceville",
+      "Lower Lawrenceville",
+      "Upper Lawrenceville"
+    ],
     "website": "https://www.lunited.org",
     "facebook": null,
     "web_type": "website",
@@ -16,7 +20,11 @@
   {
     "id": "nrco-02",
     "name": "Lawrenceville Corporation",
-    "neighborhoods": ["Central Lawrenceville", "Lower Lawrenceville", "Upper Lawrenceville"],
+    "neighborhoods": [
+      "Central Lawrenceville",
+      "Lower Lawrenceville",
+      "Upper Lawrenceville"
+    ],
     "website": "https://lvpgh.com",
     "facebook": null,
     "web_type": "website",
@@ -30,7 +38,9 @@
   {
     "id": "nrco-03",
     "name": "Morningside Area Community Council",
-    "neighborhoods": ["Morningside"],
+    "neighborhoods": [
+      "Morningside"
+    ],
     "website": "https://morningsidepgh.org",
     "facebook": null,
     "web_type": "website",
@@ -44,7 +54,9 @@
   {
     "id": "nrco-04",
     "name": "Shadyside Action Coalition",
-    "neighborhoods": ["Shadyside"],
+    "neighborhoods": [
+      "Shadyside"
+    ],
     "website": "https://sca2022.com",
     "facebook": null,
     "web_type": "website",
@@ -58,7 +70,9 @@
   {
     "id": "nrco-05",
     "name": "Stanton Heights Neighborhood Association",
-    "neighborhoods": ["Stanton Heights"],
+    "neighborhoods": [
+      "Stanton Heights"
+    ],
     "website": "https://www.stantonheights.org",
     "facebook": null,
     "web_type": "website",
@@ -72,7 +86,9 @@
   {
     "id": "nrco-06",
     "name": "Strip District Neighbors",
-    "neighborhoods": ["Strip District"],
+    "neighborhoods": [
+      "Strip District"
+    ],
     "website": "https://www.stripdistrictneighbors.org",
     "facebook": null,
     "web_type": "website",
@@ -86,7 +102,9 @@
   {
     "id": "nrco-07",
     "name": "Crafton Heights Community Organization (CHCO)",
-    "neighborhoods": ["Crafton Heights"],
+    "neighborhoods": [
+      "Crafton Heights"
+    ],
     "website": "https://chco.org",
     "facebook": null,
     "web_type": "website",
@@ -100,7 +118,9 @@
   {
     "id": "nrco-08",
     "name": "Central Northside Neighborhood Council (CNNC)",
-    "neighborhoods": ["Central Northside"],
+    "neighborhoods": [
+      "Central Northside"
+    ],
     "website": "https://www.cnnc.us",
     "facebook": null,
     "web_type": "website",
@@ -114,7 +134,9 @@
   {
     "id": "nrco-09",
     "name": "Regent Square Civic Association",
-    "neighborhoods": ["Regent Square"],
+    "neighborhoods": [
+      "Regent Square"
+    ],
     "website": "https://regentsquare.net",
     "facebook": null,
     "web_type": "website",
@@ -128,7 +150,9 @@
   {
     "id": "nrco-10",
     "name": "Sheraden",
-    "neighborhoods": ["Sheraden"],
+    "neighborhoods": [
+      "Sheraden"
+    ],
     "website": "https://sheradenpgh.org",
     "facebook": null,
     "web_type": "website",
@@ -142,7 +166,9 @@
   {
     "id": "nrco-11",
     "name": "Troy Hill Citizens",
-    "neighborhoods": ["Troy Hill"],
+    "neighborhoods": [
+      "Troy Hill"
+    ],
     "website": null,
     "facebook": "https://www.facebook.com/TroyHillCitizens/",
     "web_type": "facebook_only",
@@ -156,7 +182,9 @@
   {
     "id": "nrco-12",
     "name": "Knoxville Community Council",
-    "neighborhoods": ["Knoxville"],
+    "neighborhoods": [
+      "Knoxville"
+    ],
     "website": null,
     "facebook": "https://www.facebook.com/knoxvillecommunitycouncil/",
     "web_type": "facebook_only",
@@ -170,7 +198,9 @@
   {
     "id": "nrco-13",
     "name": "Overbrook Community Council",
-    "neighborhoods": ["Overbrook"],
+    "neighborhoods": [
+      "Overbrook"
+    ],
     "website": null,
     "facebook": null,
     "web_type": "unknown",
@@ -184,7 +214,10 @@
   {
     "id": "nrco-14",
     "name": "Arlington Civic Council",
-    "neighborhoods": ["Arlington", "Arlington Heights"],
+    "neighborhoods": [
+      "Arlington",
+      "Arlington Heights"
+    ],
     "website": null,
     "facebook": "https://www.facebook.com/Arlingtonciviccouncil/",
     "web_type": "facebook_only",
@@ -198,7 +231,9 @@
   {
     "id": "nrco-15",
     "name": "Northview Heights Citizens Council",
-    "neighborhoods": ["Northview Heights"],
+    "neighborhoods": [
+      "Northview Heights"
+    ],
     "website": null,
     "facebook": null,
     "web_type": "unknown",
@@ -212,7 +247,9 @@
   {
     "id": "nrco-16",
     "name": "Beechview Revitalization Advisory Group (BRAG)",
-    "neighborhoods": ["Beechview"],
+    "neighborhoods": [
+      "Beechview"
+    ],
     "website": "https://www.beechviewing.org",
     "facebook": "https://www.facebook.com/BRAGbeechview/",
     "web_type": "website",
@@ -226,7 +263,9 @@
   {
     "id": "nrco-18",
     "name": "Overbrook West Neighbors",
-    "neighborhoods": ["Overbrook"],
+    "neighborhoods": [
+      "Overbrook"
+    ],
     "website": "https://www.overbrookwestneighbors.com",
     "facebook": null,
     "web_type": "website",
@@ -240,7 +279,9 @@
   {
     "id": "nrco-17",
     "name": "Strip District Business Association",
-    "neighborhoods": ["Strip District"],
+    "neighborhoods": [
+      "Strip District"
+    ],
     "website": null,
     "facebook": null,
     "web_type": "unknown",
@@ -250,5 +291,80 @@
     "propublica_ntee": "S40",
     "is_rco": false,
     "notes": "Business improvement-focused, less likely to have neighborhood events. Strip District Neighbors (nrco-06) is the residential org."
+  },
+  {
+    "id": "nrco-19",
+    "name": "31st Ward Community Action Group",
+    "neighborhoods": [
+      "Lincoln Place",
+      "Hays",
+      "New Homestead"
+    ],
+    "website": "https://31stwardcag.org",
+    "facebook": "https://www.facebook.com/people/Pittsburghs-31st-Ward-Community-Action-Group/100076737851046/",
+    "web_type": "website",
+    "org_type": "civic action group",
+    "address": null,
+    "phone": null,
+    "propublica_ntee": null,
+    "is_rco": false,
+    "meeting_schedule": "2nd Tuesday of the month at 7pm",
+    "meeting_location": "Lincoln Place Presbyterian Church, 1202 Muldowney Ave, Pittsburgh, PA 15207",
+    "notes": "Serves Lincoln Place, Hays, New Homestead, and Gates Manor. Active and appears well-organized."
+  },
+  {
+    "id": "nrco-20",
+    "name": "South Oakland Neighborhood Group (SONG)",
+    "neighborhoods": [
+      "South Oakland"
+    ],
+    "website": "http://southoaklandpgh.org",
+    "facebook": null,
+    "web_type": "website",
+    "org_type": "neighborhood group",
+    "address": null,
+    "phone": "(412) 440-8840",
+    "propublica_ntee": null,
+    "is_rco": false,
+    "meeting_schedule": "2nd Tuesday of the month at 6pm",
+    "meeting_location": "Frazier Field House, 3716 Frazier St, Pittsburgh, PA 15213",
+    "notes": "Resident-run group for South Oakland. Open public meetings."
+  },
+  {
+    "id": "nrco-21",
+    "name": "West End-Elliott Citizens Council (WEECC)",
+    "neighborhoods": [
+      "West End",
+      "Elliott"
+    ],
+    "website": "http://www.weecc.org",
+    "facebook": null,
+    "web_type": "website",
+    "org_type": "civic council",
+    "address": null,
+    "phone": null,
+    "propublica_ntee": null,
+    "is_rco": false,
+    "meeting_schedule": null,
+    "meeting_location": null,
+    "notes": "Serves West End and Elliott neighborhoods. HTTP-only site with cert issues — check weecc.org for current schedule."
+  },
+  {
+    "id": "nrco-22",
+    "name": "California-Kirkbride Neighbors",
+    "neighborhoods": [
+      "California-Kirkbride"
+    ],
+    "website": null,
+    "facebook": "https://www.facebook.com/p/California-Kirkbride-Neighbors-100067956355539/",
+    "web_type": "facebook_only",
+    "org_type": "neighborhood group",
+    "address": null,
+    "phone": "(412) 758-3898",
+    "propublica_ntee": null,
+    "is_rco": false,
+    "meeting_schedule": null,
+    "meeting_location": null,
+    "notes": "Primary community partner with Tree Pittsburgh for neighborhood greening. Facebook is primary web presence."
   }
 ]
