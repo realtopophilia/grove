@@ -4,8 +4,8 @@ import Link from 'next/link'
 export default function Home() {
   const neighborhoods = getNeighborhoodIndex()
 
-  const totalRcos = neighborhoods.reduce((sum, n) => sum + n.rcos.length, 0)
-  const totalOrgs = neighborhoods.reduce((sum, n) => sum + n.orgs.length, 0)
+  const totalRcos = new Set(neighborhoods.flatMap(n => n.rcos.map(r => r.id))).size
+  const totalOrgs = new Set(neighborhoods.flatMap(n => n.orgs.map(o => o.id))).size
 
   return (
     <>
